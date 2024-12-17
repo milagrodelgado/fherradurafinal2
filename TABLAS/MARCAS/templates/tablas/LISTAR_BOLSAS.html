@@ -1,0 +1,171 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block titulo %} LISTA DE BOLSAS {% endblock %}
+
+{% block contenido %}
+<div class="bolsa">
+  <div class="back-button-Lbols">
+    <a href="{% url 'registros' %}">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="currentColor" />
+      </svg>
+      Atrás
+    </a>
+  </div>
+  <div class="bolsaF">
+    <h4 class="card-bolsaF">
+      <i class="titulo-bolsaF"></i>ALIMENTO SUELTO
+    </h4>
+  </div>
+  <div class="filtros-container-lb">
+    <form method="get" class="form-filtros-lb">
+      <!-- Filtro por fecha de apertura -->
+      <div class="campo-filtro-lb">
+        <label for="fecha_apertura">Fecha Apertura:</label>
+        <input type="date" id="fecha_apertura" name="fecha_apertura" value="{{ fecha_apertura }}" class="input-filtro">
+      </div>
+
+      <!-- Filtro por fecha de cierre -->
+      <div class="campo-filtro-lb">
+        <label for="fecha_cierre">Fecha Cierre:</label>
+        <input type="date" id="fecha_cierre" name="fecha_cierre" value="{{ fecha_cierre }}" class="input-filtro">
+      </div>
+
+      <!-- Botones de filtro -->
+      <div class="botones-filtro-lb">
+        <button type="submit" class="btn-filtrar-lb">Filtrar</button>
+        <a href="{% url 'bolsas' %}" class="btn-limpiar-lb">Limpiar</a>
+      </div>
+    </form>
+  </div>
+
+  <div class="card-bodybolsaF">
+    <div class="table-responsivebolsaF">
+      <table class="tablee-bolsaF">
+        <thead>
+          <tr class="tr-bolsaF">
+            <th scope="col">#</th>
+            <th scope="col">PRODUCTO</th>
+            <th scope="col">PRECIO RESTANTE</th>
+            <th scope="col">FECHA APERTURA</th>
+            <th scope="col">PRECIO ORIGINAL</th>
+            <th scope="col">ÚLTIMO 50%</th>
+            <th scope="col">ESTADO</th>
+            <th scope="col">FECHA CIERRE</th>
+            <th scope="col">TOTAL VENDIDO</th>
+            <th scope="col">MOTIVO CIERRE ESPECIAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for bolsa in bolsas %}
+          <tr class="tr-bolsaFB">
+            <td class="bolsaFtx">{{ bolsa.id }}</td>
+            <td>
+              <div class="tx-bolsaF">
+                {% if bolsa.producto.animal.animal == 'Gato' %}
+                <i class="text-info"></i>
+                {% else %}
+                <i class="text-warning"></i>
+                {% endif %}
+                <div>
+                  <strong>{{ bolsa.producto.marca.marca }}</strong><br>
+                  <small class="text-mutedB">
+                    {{ bolsa.producto.nombre }}
+                    {% if bolsa.producto.animal %} - {{ bolsa.producto.animal.animal }}{% endif %}
+                    {% if bolsa.producto.edad %} - {{ bolsa.producto.edad.edad }}{% endif %}
+                    {% if bolsa.producto.tamaño %} - {{ bolsa.producto.tamaño.tamaño }}{% endif %}
+                    - {{ bolsa.producto.peso }}kg
+                  </small>
+                </div>
+              </div>
+            </td>
+            <td class="text-endbolsaF">
+              <strong class="text-successbolsaF">{{ bolsa.precio_restante }} ARS</strong>
+            </td>
+            <td class="text-bolsaFbl">{{ bolsa.fecha_apertura|date:"d/m/Y H:i" }}</td>
+            <td class="text-bolsaFvlx">{{ bolsa.precio_original }} ARS</td>
+            <td class="text-bolsaFz">
+              {% if bolsa.en_ultimo_50_porciento %}
+              <span class="desbolsaF">50% OFF</span>
+              {% else %}
+              <span class="badg-bolsaF">Normal</span>
+              {% endif %}
+            </td>
+            <td class="text-bolsaFt">
+              {% if bolsa.esta_abierta %}
+                <div class="actions-container">
+                  <span class="bg-bolsaFsuccess">Abierta</span>
+                  <button onclick="abrirModalCierreEspecial('{{bolsa.id}}')" class="btn-cerrar-especial">
+                  Cerrar Especial
+                  </button>
+                </div>
+              {% else %}
+                <span class="bg-bolsaFdanger">Cerrada</span>
+              {% endif %}
+            </td>
+            <td class="text-bolsaFph">
+              {% if bolsa.fecha_cierre %}
+              {{ bolsa.fecha_cierre|date:"d/m/Y H:i" }}
+              {% else %}
+              <span class="text-bolsaFe">-</span>
+              {% endif %}
+            </td>
+            <td class="text-endbolsaF">
+              <strong class="text-successbolsaF">{{ bolsa.total_vendido }} ARS</strong>
+            </td>
+            <td class="text-endbolsaEC">
+              <strong class="text-successbolsaF">{{ bolsa.motivo_cierre_especial|default:"-" }}</strong>
+            </td>
+          </tr>
+          {% empty %}
+          <tr>
+            <td colspan="9" class="text-bolsaFq">
+              <i class="bolsaFsw"></i>
+              <p class="nota-bolsaF">No hay bolsas abiertas en este momento.</p>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagination">
+      {% if page_obj.has_previous %}
+      <a
+        href="?page=1{% if search_query %}&nombre={{ search_query }}{% endif %}{% if fecha_apertura %}&fecha_apertura={{ fecha_apertura }}{% endif %}{% if fecha_cierre %}&fecha_cierre={{ fecha_cierre }}{% endif %}">&laquo;
+        Primera</a>
+      <a
+        href="?page={{ page_obj.previous_page_number }}{% if search_query %}&nombre={{ search_query }}{% endif %}{% if fecha_apertura %}&fecha_apertura={{ fecha_apertura }}{% endif %}{% if fecha_cierre %}&fecha_cierre={{ fecha_cierre }}{% endif %}">Anterior</a>
+      {% endif %}
+
+      <span class="current">
+        Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}
+      </span>
+
+      {% if page_obj.has_next %}
+      <a
+        href="?page={{ page_obj.next_page_number }}{% if search_query %}&nombre={{ search_query }}{% endif %}{% if fecha_apertura %}&fecha_apertura={{ fecha_apertura }}{% endif %}{% if fecha_cierre %}&fecha_cierre={{ fecha_cierre }}{% endif %}">Siguiente</a>
+      <a
+        href="?page={{ page_obj.paginator.num_pages }}{% if search_query %}&nombre={{ search_query }}{% endif %}{% if fecha_apertura %}&fecha_apertura={{ fecha_apertura }}{% endif %}{% if fecha_cierre %}&fecha_cierre={{ fecha_cierre }}{% endif %}">Última
+        &raquo;</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<div id="modalCierreEspecial" class="modal" style="display: none;">
+  <div class="modal-content">
+    <h2>Cierre Especial de Bolsa</h2>
+    <textarea id="motivoCierre" placeholder="Ingrese el motivo del cierre especial" rows="4"></textarea>
+    <input type="hidden" id="bolsaIdCierre">
+    <div class="modal-buttons">
+      <button onclick="confirmarCierreEspecial()" class="btn-confirmar">Confirmar</button>
+      <button onclick="cerrarModalCierreEspecial()" class="btn-cancelar">Cancelar</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'JAVA/bolsafiltro.js' %}"></script>
+{% endblock %}

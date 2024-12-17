@@ -1,0 +1,498 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block titulo %}MENU{% endblock %}
+
+{% block contenido %}
+<!-- Contenedor principal -->
+<div class="menu-wrapper">
+  <div class="row mt-5">
+    <!-- Sección de Botones (columna izquierda) -->
+    <div class="col-md-3">
+      <div class="d-flex flex-column gap-4">
+        <button id="openModalBtn" class="btn-AC w-100">APERTURA DE CAJA</button>
+        <a href="{% url 'productos_baja_existencia' %}" class="btn-RG w-100">STOCK</a>
+        {% if request.user.is_superuser or 'Empleados Especiales' in request.user.groups.all|stringformat:'s' or 'Administradores' in request.user.groups.all|stringformat:'s' %}
+          <a href="{% url 'registros' %}" class="btn-RG w-100">REGISTROS</a>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Sección del Gestor de Tareas (columna derecha) -->
+    <div class="col-md-9">
+      <div class="card bg-dark text-white border-warning">
+        <div class="card-header bg-warning text-dark">
+          <h4 class="mb-0">Lista de Tareas</h4>
+        </div>
+        <div class="card-body">
+          <form id="tareaForm" method="POST" action="{% url 'agregar_tarea' %}" class="mb-4">
+            {% csrf_token %}
+            <div class="input-group">
+              <input type="text" name="tarea_descripcion" class="form-control" placeholder="Nueva tarea..." required>
+              <select name="prioridad" class="form-select" style="max-width: 150px;">
+                <option value="alta">Alta Prioridad</option>
+                <option value="media">Media Prioridad</option>
+                <option value="baja">Baja Prioridad</option>
+              </select>
+
+              {% if request.user.is_superuser or request.user.groups.all|join:" " == 'Empleados Especiales' or request.user.groups.all|join:" " == 'Administradores' %}
+                <div class="input-group-append">
+                  <div class="form-check form-switch ms-2 me-2">
+                    <input class="form-check-input" type="checkbox" id="esEspecifica" name="es_especifica">
+                    <label class="form-check-label text-white" for="esEspecifica">Tarea Específica</label>
+                  </div>
+                  <select name="asignado_a" class="form-select" id="asignadoA" style="display: none;">
+                    <option value="">Seleccionar empleado...</option>
+                    {% for empleado in empleados_regulares %}
+                      <option value="{{ empleado.id }}">
+                        {% if empleado.get_full_name %}
+                          {{ empleado.get_full_name }}
+                        {% else %}
+                          {{ empleado.username }}
+                        {% endif %}
+                      </option>
+                    {% endfor %}
+                  </select>
+                </div>
+              {% endif %}
+
+              <button type="submit" class="btn-agree">AGREGAR TAREA</button>
+            </div>
+          </form>
+        <div class="tareas-container">
+          <div class="tarea-list">
+            {% for tarea in tareas %}
+            <div class="tarea-item mb-2 p-3 border rounded {% if tarea.completada %}bg-success bg-opacity-25{% endif %}"
+              data-tarea-id="{{ tarea.id }}">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-column">
+                  <div class="d-flex align-items-center">
+                    <!-- Solo mostrar checkbox si es tarea no específica O si el usuario actual es el asignado -->
+                    {% if not tarea.es_tarea_especifica or request.user == tarea.asignado_a %}
+                    <input type="checkbox" class="form-check-input me-2 tarea-checkbox" 
+                           {% if tarea.completada %}checked{% endif %}
+                           data-tarea-id="{{ tarea.id }}"
+                           {% if tarea.es_tarea_especifica and request.user != tarea.asignado_a %}disabled{% endif %}>
+                    {% else %}
+                    <!-- Mostrar checkbox deshabilitado para otros usuarios -->
+                    <input type="checkbox" class="form-check-input me-2" 
+                           {% if tarea.completada %}checked{% endif %}
+                           disabled>
+                    {% endif %}
+                    <span class="tarea-text {% if tarea.completada %}text-decoration-line-through{% endif %}">
+                      {{ tarea.descripcion }}
+                    </span>
+                    {% if tarea.es_tarea_especifica %}
+                    <span class="badge bg-info ms-2">Específica</span>
+                    {% endif %}
+                  </div>
+                  <small class="text-muted ms-4">
+                    Creado por: {{ tarea.creador.get_full_name|default:tarea.creador.username }}
+                    {% if tarea.asignado_a %}
+                    <span class="ms-2">Asignado a: {{ tarea.asignado_a.get_full_name|default:tarea.asignado_a.username }}</span>
+                    {% endif %}
+                    <span class="ms-2">{{ tarea.fyh_creacion|date:"d/m/Y H:i" }}</span>
+                  </small>
+                </div>
+                <div class="tarea-actions">
+                  <span class="badge {% if tarea.prioridad == 'alta' %}bg-danger{% elif tarea.prioridad == 'media' %}bg-warning{% else %}bg-info{% endif %}">
+                    {{ tarea.prioridad }}
+                  </span>
+                  {% if request.user.is_superuser or request.user.groups.all|join:" " == 'Empleados Especiales' or request.user.groups.all|join:" " == 'Administradores' %}
+                  <button class="btn-outline-danger ms-2 delete-tarea" data-tarea-id="{{ tarea.id }}">
+                    <i class="fas fa-trash">X</i>
+                  </button>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            {% empty %}
+            <p class="text-center text-muted">No hay tareas pendientes</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+
+<!-- Botón de logout fijo en la esquina inferior derecha -->
+<form method="post" action="{% url 'logout' %}" class="logout-form">
+  {% csrf_token %}
+  <button type="submit" class="btn-logout">
+    <svg class="icono-salir" viewBox="0 0 512 512">
+      <path
+        d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
+    </svg>
+  </button>
+</form>
+
+<!-- Modal de Apertura de Caja -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeModalBtn" class="close">&times;</span>
+    <h2>Apertura de Caja</h2>
+    <form id="aperturaCajaForm" method="POST" action="{% url 'apertura_caja' %}">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="montoInicial">Monto Inicial:</label>
+        <input type="number" id="montoInicial" name="monto_inicial" step="0.01" required class="form-control">
+      </div>
+      <button type="submit" class="btn-btn-primary">Aceptar</button>
+    </form>
+  </div>
+</div>
+
+<!-- Estilos -->
+<style>
+ 
+</style>
+
+<!-- Scripts -->
+<script>
+  // Función para validar el texto ingresado
+  function validarTextoTarea(texto) {
+      const emojiRegex = /[\u{1F300}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F100}-\u{1F1FF}\u{1F680}-\u{1F6FF}\u{1F1E6}-\u{1F1FF}]/u;
+      
+      if (emojiRegex.test(texto)) {
+          return {
+              valido: false,
+              mensaje: 'No se permiten emojis en la descripción de la tarea'
+          };
+      }
+  
+      if (texto.trim().length < 3) {
+          return {
+              valido: false,
+              mensaje: 'La descripción debe tener al menos 3 caracteres'
+          };
+      }
+  
+      if (texto.length > 100) {
+          return {
+              valido: false,
+              mensaje: 'La descripción no puede exceder los 100 caracteres'
+          };
+      }
+  
+      const caracteresEspecialesRegex = /[<>{}]/;
+      if (caracteresEspecialesRegex.test(texto)) {
+          return {
+              valido: false,
+              mensaje: 'La descripción contiene caracteres no permitidos'
+          };
+      }
+  
+      return {
+          valido: true
+      };
+  }
+  
+  document.addEventListener('DOMContentLoaded', function () {
+      // Control del Modal de Apertura de Caja
+      const modal = document.getElementById('modal');
+      const openModalBtn = document.getElementById('openModalBtn');
+      const closeModalBtn = document.getElementById('closeModalBtn');
+      const tareaForm = document.getElementById('tareaForm');
+      const tareaInput = document.querySelector('input[name="tarea_descripcion"]');
+  
+      // Modal de Apertura de Caja
+      if (openModalBtn) {
+          openModalBtn.addEventListener('click', function () {
+              modal.style.display = 'block';
+          });
+      }
+  
+      if (closeModalBtn) {
+          closeModalBtn.addEventListener('click', function () {
+              modal.style.display = 'none';
+          });
+      }
+  
+      window.addEventListener('click', function (event) {
+          if (event.target == modal) {
+              modal.style.display = 'none';
+          }
+      });
+  
+      // Control de tareas específicas
+      const esEspecificaCheck = document.getElementById('esEspecifica');
+      const asignadoSelect = document.getElementById('asignadoA');
+  
+      if (esEspecificaCheck) {
+          esEspecificaCheck.addEventListener('change', function () {
+              asignadoSelect.style.display = this.checked ? 'block' : 'none';
+              asignadoSelect.required = this.checked;
+          });
+      }
+  
+      // Validación de input de tareas
+      if (tareaInput) {
+          tareaInput.style.fontFamily = 'Arial, sans-serif';
+          tareaInput.style.fontSize = '14px';
+          tareaInput.style.lineHeight = '1.5';
+          tareaInput.style.padding = '8px 12px';
+  
+          tareaInput.addEventListener('input', function(e) {
+              const texto = e.target.value;
+              const validacion = validarTextoTarea(texto);
+  
+              if (!validacion.valido) {
+                  tareaInput.setCustomValidity(validacion.mensaje);
+                  mostrarError(validacion.mensaje);
+              } else {
+                  tareaInput.setCustomValidity('');
+                  ocultarError();
+              }
+          });
+  
+          tareaInput.addEventListener('blur', function() {
+              this.value = this.value.trim()
+                  .replace(/\s+/g, ' ')
+                  .replace(/[<>{}]/g, '');
+          });
+      }
+  
+      // Manejo del formulario
+      if (tareaForm) {
+          tareaForm.addEventListener('submit', function(e) {
+              e.preventDefault();
+              
+              const texto = tareaInput.value;
+              const validacion = validarTextoTarea(texto);
+  
+              if (!validacion.valido) {
+                  mostrarError(validacion.mensaje);
+                  return;
+              }
+  
+              this.submit();
+          });
+      }
+  
+      // Actualización de tareas (checkboxes)
+      document.querySelectorAll('.tarea-checkbox').forEach(checkbox => {
+          checkbox.addEventListener('change', function() {
+              const tareaId = this.dataset.tareaId;
+              const completed = this.checked;
+  
+              fetch(`/actualizar-tarea/${tareaId}/`, {
+                  method: 'POST',
+                  headers: {
+                      'Content-Type': 'application/json',
+                      'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+                  },
+                  body: JSON.stringify({ completed: completed })
+              }).then(response => {
+                  if (!response.ok) {
+                      throw response;
+                  }
+                  
+                  const tareaItem = this.closest('.tarea-item');
+                  const tareaText = tareaItem.querySelector('.tarea-text');
+  
+                  if (completed) {
+                      tareaItem.classList.add('bg-success', 'bg-opacity-25');
+                      tareaText.classList.add('text-decoration-line-through');
+                  } else {
+                      tareaItem.classList.remove('bg-success', 'bg-opacity-25');
+                      tareaText.classList.remove('text-decoration-line-through');
+                  }
+              }).catch(error => {
+                  this.checked = !completed;
+                  
+                  if (error.json) {
+                      error.json().then(data => {
+                          alert(data.message || 'No tienes permiso para completar esta tarea');
+                      });
+                  } else {
+                      alert('Error al actualizar la tarea');
+                  }
+              });
+          });
+      });
+  
+      // Eliminación de tareas
+      document.querySelectorAll('.delete-tarea').forEach(button => {
+          button.addEventListener('click', function() {
+              const tareaId = this.dataset.tareaId;
+  
+              if (confirm('¿Estás seguro de que deseas eliminar esta tarea?')) {
+                  fetch(`/eliminar-tarea/${tareaId}/`, {
+                      method: 'POST',
+                      headers: {
+                          'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+                      }
+                  }).then(response => {
+                      if (response.ok) {
+                          this.closest('.tarea-item').remove();
+                      } else {
+                          alert('No tienes permiso para eliminar esta tarea');
+                      }
+                  }).catch(error => {
+                      console.error('Error:', error);
+                      alert('Hubo un error al eliminar la tarea');
+                  });
+              }
+          });
+      });
+  });
+  
+  // Funciones auxiliares para mensajes de error
+  function mostrarError(mensaje) {
+      let errorDiv = document.getElementById('error-mensaje');
+      if (!errorDiv) {
+          errorDiv = document.createElement('div');
+          errorDiv.id = 'error-mensaje';
+          errorDiv.style.color = '#ff6b6b';
+          errorDiv.style.fontSize = '12px';
+          errorDiv.style.marginTop = '5px';
+          errorDiv.style.padding = '5px';
+          const tareaInput = document.querySelector('input[name="tarea_descripcion"]');
+          if (tareaInput) {
+              tareaInput.parentNode.insertBefore(errorDiv, tareaInput.nextSibling);
+          }
+      }
+      errorDiv.textContent = mensaje;
+  }
+  
+  function ocultarError() {
+      const errorDiv = document.getElementById('error-mensaje');
+      if (errorDiv) {
+          errorDiv.remove();
+      }
+  }
+  
+  // Estilos CSS
+  const styles = `
+      #tareaForm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[name="tarea_descripcion"] {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #333;
+  color: #fff;
+}
+
+input[name="tarea_descripcion"]:focus {
+  outline: none;
+  border: 1px solid #ffa500;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.8);
+}
+
+select[name="prioridad"],
+select[name="asignado_a"] {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background: #444;
+  color: #fff;
+  font-size: 14px;
+}
+
+select[name="prioridad"]:focus,
+select[name="asignado_a"]:focus {
+  outline: none;
+  border: 1px solid #ffa500;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.8);
+}
+
+/* Botón Agregar */
+.btn-agree {
+  background-color: #ff8605;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-agree:hover {
+  background-color: #ff7800;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(255, 120, 0, 0.6);
+}
+
+/* Lista de tareas */
+.tarea-item {
+  background: #222;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.tarea-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Texto de las tareas */
+.tarea-text {
+  font-size: 16px;
+  color: #fff;
+}
+
+.tarea-text.text-decoration-line-through {
+  color: #888;
+  text-decoration: line-through;
+}
+
+/* Acciones */
+.tarea-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tarea-actions .badge {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.btn-outline-danger {
+  background: none;
+  border: 2px solid #ffa500;
+  border-radius: 50%;
+  color: #ff4d4d; 
+  font-size: 14px; 
+  font-weight: bold;
+  cursor: pointer;
+  padding: 3px; 
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s, color 0.3s, border-color 0.3s;
+ 
+}
+
+.btn-outline-danger:hover {
+  color: white;
+  transform: scale(1.2);
+  background-color: red; 
+}
+.btn-outline-danger:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff4d4d;
+}
+  `;
+  
+  const styleSheet = document.createElement("style");
+  styleSheet.innerText = styles;
+  document.head.appendChild(styleSheet);
+  </script>
+{% endblock %}

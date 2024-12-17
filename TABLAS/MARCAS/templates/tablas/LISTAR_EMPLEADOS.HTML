@@ -1,0 +1,364 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+<div class="card-empleados">
+    <div class="back-button-EMP">
+        <a href="{% url 'registros' %}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="currentColor"/>
+            </svg>
+            Atrás
+        </a>
+    </div>
+    <h2 class="title-empldS">Lista de Empleados</h2>
+    <div class="filtro-empleados">
+        <form method="get" class="form-busqueda">
+            <div class="campo-busqueda">
+                <input type="text" 
+                       id="nombre" 
+                       name="nombre" 
+                       placeholder="Buscar por nombre..."
+                       value="{{ search_query }}"
+                       class="input-busqueda">
+            </div>
+            <div class="botones-busquedaa">
+                <button type="submit" class="btn-buscaar">Buscar</button>
+                <a href="{% url 'empleados' %}" class="btn-limpiaar">Limpiar</a>
+            </div>
+        </form>
+        {% if request.user.is_superuser or 'Empleados Especiales' in request.user.groups.all|stringformat:'s' or 'Administradores' in request.user.groups.all|stringformat:'s' %}
+
+        <div class="acciones">
+            <a href="{% url 'crear_empleado' %}" class="btn btn-primary">Crear Nuevo Empleado</a>
+        </div>
+
+        {% endif %}
+    </div>
+    
+    
+    
+<div class="card-boempld">
+        <div class="table-empl">
+            <table class="table-empls">
+                <thead class="centered-header-empl">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Teléfono</th>
+                        <th>Correo</th>
+                        <th>Dirección</th>
+                        <th>Estado</th>
+                        {% if request.user.is_superuser or 'Empleados Especiales' in request.user.groups.all|stringformat:'s' or 'Administradores' in request.user.groups.all|stringformat:'s' %}
+                        <th>Acciones</th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for empleado in empleados %}
+                    <tr {% if not empleado.esta_activo %}class="fila-inactiva"{% endif %}>
+                        <td>{{ empleado.id }}</td>
+                        <td>{{ empleado.nombre }}</td>
+                        <td>{{ empleado.apellido }}</td>
+                        <td>{{ empleado.telefono }}</td>
+                        <td>{{ empleado.correo }}</td>
+                        <td>{{ empleado.direccion }}</td>
+                        <td>
+                            <span class="badge-estado {% if empleado.esta_activo %}activo{% else %}inactivo{% endif %}">
+                                {{ empleado.esta_activo|yesno:"Activo,Inactivo" }}
+                            </span>
+                        </td>
+                        {% if request.user.is_superuser or 'Empleados Especiales' in request.user.groups.all|stringformat:'s' or 'Administradores' in request.user.groups.all|stringformat:'s' %}
+                        <td>
+                            <div class="accionestamempld">
+                                <a href="{% url 'editar_empleado' empleado.id %}" 
+                                   class="btn-editarempl">
+                                   Editar
+                                   <svg class="icono-editarempl" viewBox="0 0 512 512">
+                                        <path d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231z"/>
+                                   </svg>
+                                </a>
+                                
+                                <a href="{% url 'cambiar_password_empleado' empleado.id %}"
+                                   class="btn-cambiarempl">
+                                   Cambiar Contraseña
+                                   <svg class="icono-cambiarempl" viewBox="0 0 512 512">
+                                        <path d="M336 192h-16v-72C320 53.5 266.5 0 200 0S80 53.5 80 120v72H64c-35.3 0-64 28.7-64 64v192c0 35.3 28.7 64 64 64h272c35.3 0 64-28.7 64-64V256c0-35.3-28.7-64-64-64z"/>
+                                   </svg>
+                                </a>
+                                
+                                <a href="{% url 'cambiar_rol_empleado' empleado.id %}"
+                                   class="btn-cambiarR">
+                                   Cambiar Rol
+                                       <svg class="icono-cambiarR" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path d="M375.5 370.5c-9.4-9.4-24.6-9.4-34 0L278 424.5V88c0-13.3-10.7-24-24-24s-24 10.7-24 24v336.5l-63.5-63.5c-9.4-9.4-24.6-9.4-34 0s-9.4 24.6 0 34l106 106c9.4 9.4 24.6 9.4 34 0l106-106c9.4-9.4 9.4-24.6 0-34z"/>
+                                    <path d="M375.5 141.5c9.4 9.4 9.4 24.6 0 34L278 87.5V424c0 13.3-10.7 24-24 24s-24-10.7-24-24V87.5l-63.5 63.5c-9.4 9.4-24.6 9.4-34 0s-9.4-24.6 0-34l106-106c9.4-9.4 24.6-9.4 34 0l106 106z"/>
+                                    </svg>
+                                </a>
+
+                                <a href="#" 
+                                    class="btn-estado {% if empleado.esta_activo %}btn-desactivar{% else %}btn-activar{% endif %}"
+                                    onclick="abrirModalEstado(
+                                        '{{ empleado.id }}',
+                                        '{{ empleado.nombre }}',
+                                        '{{ empleado.apellido }}',
+                                        '{% if empleado.esta_activo %}1{% else %}0{% endif %}'
+                                    )">
+                                    {% if empleado.esta_activo %}
+                                        Desactivar
+                                    {% else %}
+                                        Activar
+                                    {% endif %}
+                                    <svg class="icono-estado" viewBox="0 0 512 512">
+                                        <path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/>
+                                    </svg>
+                                </a>
+                                
+                                <a href="#"
+                                    class="btn-borrarempl"
+                                    onclick="abrirModalBorrar('{{ empleado.id }}','{{ empleado.nombre }}','{{ empleado.apellido }}')">
+                                    Eliminar
+                                    <svg class="icono-eliminarempl" viewBox="0 0 448 512">
+                                            <path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="pagination">
+            {% if page_obj.has_previous %}
+                <a href="?page=1{% if search_query %}&nombre={{ search_query }}{% endif %}">&laquo; Primera</a>
+                <a href="?page={{ page_obj.previous_page_number }}{% if search_query %}&nombre={{ search_query }}{% endif %}">Anterior</a>
+            {% endif %}
+
+            <span class="current">
+                Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}
+            </span>
+
+            {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}{% if search_query %}&nombre={{ search_query }}{% endif %}">Siguiente</a>
+                <a href="?page={{ page_obj.paginator.num_pages }}{% if search_query %}&nombre={{ search_query }}{% endif %}">Última &raquo;</a>
+
+            {% endif %}
+        </div>   
+    </div>
+</div>
+
+
+<!-- Modal para Cambiar Estado -->
+<div id="modalEstado" class="modal">
+    <div class="modal-contenido-LE">
+        <div class="modal-header-LE">
+            <h2>Confirmar cambio de estado</h2>
+            <span class="cerrar-modal-LE" onclick="cerrarModalEstado()">&times;</span>
+        </div>
+        <div class="modal-body-LE">
+            <p>¿Está seguro que desea <span id="accionEstado"></span> al empleado <span id="nombreEmpleadoEstado"></span>?</p>
+            <p class="texto-advertencia-LE" id="advertenciaEstado"></p>
+        </div>
+        <div class="modal-footer-LE">
+            <form id="formCambiarEstado" method="POST">
+                {% csrf_token %}
+                <button type="button" class="btn-cancelar-LE" onclick="cerrarModalEstado()">Cancelar</button>
+                <button type="submit" class="btn-confirmar-LE">Confirmar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Eliminar -->
+<div id="modalBorrar" class="modal">
+    <div class="modal-contenido-LEB">
+        <div class="modal-header-LEB">
+            <h2>Confirmar eliminación</h2>
+            <span class="cerrar-modal-LEB" onclick="cerrarModalBorrar()">&times;</span>
+        </div>
+        <div class="modal-body-LEB">
+            <p>¿Está seguro que desea eliminar al empleado <span id="nombreEmpleadoBorrar"></span>?</p>
+            <p class="texto-advertencia-LEB">Esta acción no se puede deshacer.</p>
+        </div>
+        <div class="modal-footer-LEB">
+            <form id="formBorrarEmpleado" method="POST">
+                {% csrf_token %}
+                <button type="button" class="btn-cancelar-LEB" onclick="cerrarModalBorrar()">Cancelar</button>
+                <button type="submit" class="btn-confirmar-LEB">Eliminar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido-LE,
+.modal-contenido-LEB {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    animation: modalFadeIn 0.3s ease-out;
+    margin: 0 auto;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Encabezado del modal */
+.modal-header-LE,
+.modal-header-LEB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 10px;
+}
+
+.modal-header-LE h2,
+.modal-header-LEB h2 {
+    margin: 0;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 50px;
+    color: wheat;
+}
+
+.cerrar-modal-LE,
+.cerrar-modal-LEB {
+    cursor: pointer;
+    font-size: 30px;
+    color: #f31414;
+    position: absolute;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.cerrar-modal-LE:hover,
+.cerrar-modal-LEB:hover {
+    color: #ffffff;
+}
+
+/* Cuerpo del modal */
+.modal-body-LE,
+.modal-body-LEB {
+    margin: 20px 0;
+}
+
+.texto-advertencia-LE,
+.texto-advertencia-LEB {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Pie del modal */
+.modal-footer-LE,
+.modal-footer-LEB {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Botones del modal */
+.btn-cancelar-LE,
+.btn-cancelar-LEB {
+    background-color: #9c0b0b;
+    border: 2px solid #575656;
+    color: #fffdfd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-cancelar-LE:hover,
+.btn-cancelar-LEB:hover {
+    background-color: #9c0b0b;
+    color: #ffffff;
+}
+
+.btn-confirmar-LE,
+.btn-confirmar-LEB {
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-confirmar-LE:hover,
+.btn-confirmar-LEB:hover {
+    background-color: #cc5200;
+    color: white;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .modal-contenido-LE,
+    .modal-contenido-LEB {
+        width: 90%; 
+        padding: 15px;
+        margin: 0 20px; 
+    }
+
+    .modal-header-LE h2,
+    .modal-header-LEB h2 {
+        font-size: 18px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+        margin-left: 20px; /* Reduce el margen izquierdo */
+    }
+
+    .cerrar-modal-LE,
+    .cerrar-modal-LEB {
+        font-size: 25px; /* Reduce el tamaño del icono de cierre en pantallas pequeñas */
+        margin-top: 20px; /* Ajusta el margen superior */
+        margin-left: auto; /* Alinea el botón de cierre al lado derecho */
+    }
+}
+
+/* Responsividad adicional para pantallas más pequeñas */
+@media (max-width: 500px) {
+    .modal-contenido-LE,
+    .modal-contenido-LEB {
+        width: 90%; /* Modal más pequeño en pantallas muy pequeñas */
+        padding: 10px;
+    }
+
+    .modal-header-LE h2,
+    .modal-header-LEB h2 {
+        font-size: 16px; /* Ajuste extra para pantallas más pequeñas */
+        margin-left: 10px; /* Reduce aún más el margen izquierdo */
+    }
+}
+
+
+</style>
+{% endblock %}

@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Cambio de Precios{% endblock %}
+
+{% block contenido %}
+<div class="contenedor-cambpr">
+    <div class="back-button-cambp">
+        <a href="{% url 'registros' %}" >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="currentColor"/>
+            </svg>
+            Atrás
+        </a>
+    </div>
+    
+    <h1 class="titulo-cambp">CAMBIO DE PRECIOS</h1>
+    <div class="filtros-container-cambp">
+        <div class="horizontal-filters-cambpre">
+            <form method="get" class="form-filtros-cambp">
+                <div class="form-groupp-cambp">
+                    <input type="text" 
+                        name="busqueda" 
+                        placeholder="Buscar producto..." 
+                        value="{{ busqueda }}">
+                </div>
+                
+                <div class="form-group-cambp">
+                    <select name="categoria">
+                        <option value="">Todas las categorías</option>
+                        {% for cat in categorias %}
+                        <option value="{{ cat }}" {% if cat == categoria_seleccionada %}selected{% endif %}>
+                            {{ cat }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn-filtrar-cambp">Filtrar</button>
+                <a href="{% url 'cambio_precios' %}" class="btn-limpiar-cambp">Limpiar Filtros</a>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tabla de Productos -->
+    <div class="table-container-cambp">
+        <table class="table-cambp">
+            <thead class="centered-headercambp">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Categoría</th>
+                    <th>Precio Actual</th>
+                    <th>Último Cambio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for producto in productos %}
+                <tr>
+                    <td>
+                        {% if producto.categoria.nombre == "Indumentaria" or producto.categoria.nombre == "Accesorios" or producto.categoria.nombre == "Medicamentos" %}
+                            {{producto.categoria}} para {{ producto.animal}} {{ producto.edad}} {{ producto.marca}}
+                        {% else %}
+                        {{producto.categoria}} para {{ producto.animal}} {{producto.nombre}} {{ producto.edad}} {{ producto.marca}}
+                            {% if producto.peso %}
+                                x {{producto.peso}} {{producto.unidad_peso}}
+                            {% endif %}
+                        {% endif %}
+                        {% if producto.obs %}
+                            {{ producto.obs }}
+                        {% endif %}
+                    </td>
+                    <td>{{ producto.categoria }}</td>
+                    <td>${{ producto.precio }}</td>
+                    <td>
+                        {% if producto.historial_precios.exists %}
+                            {{ producto.historial_precios.first.fecha_inicio|date:"d/m/Y" }}
+                        {% else %}
+                            Sin cambios
+                        {% endif %}
+                    </td>
+                    <td>
+                        <button onclick="mostrarFormularioPrecio(this)" 
+                                data-producto-id="{{ producto.id }}"
+                                data-precio-actual="{{ producto.precio }}"
+                                data-categoria="{{ producto.categoria }}"
+                                class="btn-editare">
+                            Modificar
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% if productos.has_other_pages %}
+    <div class="pagination">
+        {% if productos.has_previous %}
+            <a href="?pagina=1{% if busqueda %}&busqueda={{ busqueda }}{% endif %}{% if categoria_seleccionada %}&categoria={{ categoria_seleccionada }}{% endif %}">&laquo; Primera</a>
+            <a href="?pagina={{ productos.previous_page_number }}{% if busqueda %}&busqueda={{ busqueda }}{% endif %}{% if categoria_seleccionada %}&categoria={{ categoria_seleccionada }}{% endif %}">Anterior</a>
+        {% endif %}
+
+        {% for num in productos.paginator.page_range %}
+            {% if productos.number == num %}
+                <span class="current-page">{{ num }}</span>
+            {% elif num > productos.number|add:'-3' and num < productos.number|add:'3' %}
+                <a href="?pagina={{ num }}{% if busqueda %}&busqueda={{ busqueda }}{% endif %}{% if categoria_seleccionada %}&categoria={{ categoria_seleccionada }}{% endif %}">{{ num }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if productos.has_next %}
+            <a href="?pagina={{ productos.next_page_number }}{% if busqueda %}&busqueda={{ busqueda }}{% endif %}{% if categoria_seleccionada %}&categoria={{ categoria_seleccionada }}{% endif %}">Siguiente</a>
+            <a href="?pagina={{ productos.paginator.num_pages }}{% if busqueda %}&busqueda={{ busqueda }}{% endif %}{% if categoria_seleccionada %}&categoria={{ categoria_seleccionada }}{% endif %}">Última &raquo;</a>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Modal para cambio de precio -->
+<div id="modalCambioPrecio" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>Modificar Precio</h2>
+            <span class="close" onclick="cerrarFormularioPrecio()">&times;</span>
+        </div>
+        <div class="modal-body">
+            <form id="formCambioPrecio" method="post" action="{% url 'actualizar_precios' %}">
+                {% csrf_token %}
+                <input type="hidden" name="producto_id" id="producto_id">
+                
+                <div class="form-group">
+                    <label>Precio Actual:</label>
+                    <span id="precio_actual_display"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo de Cambio</label>
+                    <select name="tipo_cambio" required onchange="cambiarTipoCambio()">
+                        <option value="">Seleccione tipo de cambio</option>
+                        <option value="AUMENTO">Aumento de Precio</option>
+                        <option value="DESCUENTO">Descuento</option>
+                        <option value="OFERTA">Oferta Temporal</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label id="label_valor">Nuevo Precio</label>
+                    <input type="number" 
+                           name="valor_cambio" 
+                           step="0.01" 
+                           required 
+                           min="0" 
+                           pattern="\d+(\.\d{0,2})?"
+                           title="Ingrese un número con máximo 2 decimales"
+                           oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                </div>
+
+                <div class="form-group fecha-fin" style="display:none;">
+                    <label>Fecha y Hora de Finalización</label>
+                    <input type="datetime-local" 
+                           name="fecha_fin"
+                           pattern="\d{4}-\d{2}-\d{2}T\d{2}:\d{2}"
+                           min=""
+                           data-date-format="YYYY-MM-DDTHH:mm"
+                           onkeydown="return false"> <!-- Previene entrada manual -->
+                </div>
+
+                <div class="form-group">
+                    <label>Motivo del Cambio</label>
+                    <input type="text" 
+                           name="motivo" 
+                           required 
+                           maxlength="200"
+                           placeholder="Ingrese el motivo del cambio">
+                </div>
+
+                <div class="form-check">
+                    <label class="checkbox-container">
+                        <input type="checkbox" 
+                               name="aplicar_categoria" 
+                               onchange="toggleAplicarCategoria()">
+                        <span class="checkbox-label">Aplicar a toda la categoría</span>
+                    </label>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn-guardar">Guardar Cambios</button>
+                    <button type="button" 
+                            class="btn-cancelar" 
+                            onclick="cerrarFormularioPrecio()">
+                        Cancelar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
