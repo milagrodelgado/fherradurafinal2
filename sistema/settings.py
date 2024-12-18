@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'forrajeria38',
+        'NAME': 'HerraduraFinal2',
         'USER': 'root',
-        'PASSWORD': 'homero',
-        'HOST': 'localhost',
+        'PASSWORD': 'kowa19koGO',
+        'HOST': '149.50.146.228',
         'PORT': '3306'
     }
 }
