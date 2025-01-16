@@ -1,0 +1,294 @@
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /cajas/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1224, in cajas
+    return render(request, 'TABLAS/CAJA_DIA.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: TABLAS/CAJA_DIA.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /ventas
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1597, in ventas
+    return render(request, 'tablas/LISTAR_VENTAS.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: tablas/LISTAR_VENTAS.html
+Internal Server Error: /cajas/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/decorators.py", line 27, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/var/www/laherradura/fherradurafinal2/TABLAS/MARCAS/views.py", line 1224, in cajas
+    return render(request, 'TABLAS/CAJA_DIA.html', context)
+  File "/usr/local/lib/python3.10/dist-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: TABLAS/CAJA_DIA.html
+Invalid HTTP_HOST header: 'api.tdp.u7u9.com'. You may need to add 'api.tdp.u7u9.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.tdp.u7u9.com'. You may need to add 'api.tdp.u7u9.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.sogou.com'. You may need to add 'www.sogou.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.sogou.com'. You may need to add 'www.sogou.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '138.68.98.116'. You may need to add '138.68.98.116' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '138.68.98.116'. You may need to add '138.68.98.116' to ALLOWED_HOSTS.

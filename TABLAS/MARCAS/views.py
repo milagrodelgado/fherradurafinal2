@@ -1221,7 +1221,7 @@ def cajas(request):
             'ventas_resumen': ventas_resumen
         }
     
-    return render(request, 'TABLAS/CAJA_DIA.html', context)
+    return render(request, 'tablas/CAJA_DIA.html', context)
 
 @admin_or_special_required
 def listar_cajas(request):

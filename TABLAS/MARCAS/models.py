@@ -61,7 +61,9 @@ class Empleado(models.Model):
 
     def __str__(self):
         return self.nombre
-    
+
+
+
 class RegistroSesion(models.Model):
     empleado = models.ForeignKey('Empleado', on_delete=models.CASCADE)
     inicio_s = models.DateTimeField(default=timezone.now)

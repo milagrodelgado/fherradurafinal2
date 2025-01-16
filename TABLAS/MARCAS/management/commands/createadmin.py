@@ -71,11 +71,15 @@ class Command(ValidationMixin, createsuperuser.Command):
         # Solicitar email
         while True:
             if not email:
-                email = input("Email address: ")
-            if '@' in email:  # Validación básica de email
-                break
-            self.stderr.write(self.style.ERROR("Email inválido. Debe contener @"))
-            email = None
+                try:
+                    email = input("Email address: ").encode('ascii', 'ignore').decode('ascii')
+                    if '@' in email:  # Validación básica de email
+                        break
+                    self.stderr.write(self.style.ERROR("Email inválido. Debe contener @"))
+                    email = None
+                except UnicodeEncodeError:
+                    self.stderr.write(self.style.ERROR("El email contiene caracteres no válidos. Use solo caracteres ASCII."))
+                    email = None
 
         # Solicitar y validar contraseña
         while True:
